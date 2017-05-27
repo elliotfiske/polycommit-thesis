@@ -1,6 +1,5 @@
 \documentclass[12pt]{ucthesis}
 
-
 \usepackage{etex}
 \usepackage[morefloats=125]{morefloats}
 \usepackage[hyphens]{url}
@@ -27,13 +26,13 @@
 \usepackage{ifthen}
 
 \makeindex
-\makeglossaries
+%\makeglossaries
 
 % Shrink the size of headers
 \titleformat{\chapter}[display]
-        {\normalfont\normalsize\centering}
-        {\ifthenelse{\equal{\thechapter}{A}}{APPENDICES\\[4.3ex]}{}\chaptertitlename\ \thechapter}
-        {0pt}{\normalsize\uppercase}
+{\normalfont\normalsize\centering}
+{\ifthenelse{\equal{\thechapter}{A}}{APPENDICES\\[4.3ex]}{}\chaptertitlename\ \thechapter}
+{0pt}{\normalsize\uppercase}
 \titlespacing*{\chapter}{0pt}{-20pt}{4.3ex plus .2ex}
 
 
@@ -56,14 +55,14 @@
 
 \makeatletter  % Allow the use of @ in command names
 \long\def\@makecaption#1#2{%
-  \vskip\abovecaptionskip
-  \sbox\@tempboxa{{\captionfonts #1: #2}}%
-  \ifdim \wd\@tempboxa >\hsize
-    {\captionfonts #1: #2\par}
-  \else
-    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
-  \fi
-  \vskip\belowcaptionskip}
+	\vskip\abovecaptionskip
+	\sbox\@tempboxa{{\captionfonts #1: #2}}%
+	\ifdim \wd\@tempboxa >\hsize
+	{\captionfonts #1: #2\par}
+	\else
+	\hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+	\fi
+	\vskip\belowcaptionskip}
 \makeatother   % Cancel the effect of \makeatletter
 % ---------------------------------------
 
@@ -72,61 +71,61 @@
 \Crefname{app}{Appendix}{Appendices}
 
 \begin{document}
-
-% Declarations for Front Matter
-\input{frontmatter}
-
-\maketitle
-
-\begin{frontmatter}
-
-% Custom made for Cal Poly (by Mark Barry, modified by Andrew Tsui).
-\copyrightpage
-
-% Custom made for Cal Poly (by Andrew Tsui).
-\committeemembershippage
-
-\begin{abstract}
-\input{abstract}
-\end{abstract}
-
-\begin{acknowledgements}
-\input{acknowledgements}
-\end{acknowledgements}
-
-\tableofcontents
-
-\listoftables
-
-\listoffigures
-
-% Add CHAPTER into table of contents.
-\addtocontents{toc}{%
-   \noindent CHAPTER
-}
-
-\end{frontmatter}
-
-\pagestyle{plain}
-
-\renewcommand{\baselinestretch}{1.66}
-
-\input{chapter-outline}
-
-\nocite{*}
-\bibliography{bibliography}
-
-% Indents Appendix in Table of Contents
-\makeatletter
-\addtocontents{toc}{\let\protect\l@chapter\protect\l@section}
-\makeatother
-
-% Hack to make Appendices to appear in Table of Contents
-\addtocontents{toc}{%
-   \noindent APPENDICES
-}
-\begin{appendices}
-\input{appendix-outline}
-\end{appendices}
-
+	
+	% Declarations for Front Matter
+	\input{frontmatter}
+	
+	\maketitle
+	
+	\begin{frontmatter}
+		
+		% Custom made for Cal Poly (by Mark Barry, modified by Andrew Tsui).
+		\copyrightpage
+		
+		% Custom made for Cal Poly (by Andrew Tsui).
+		\committeemembershippage
+		
+		\begin{abstract}
+			\input{abstract}
+		\end{abstract}
+		
+		\begin{acknowledgements}
+			\input{acknowledgements}
+		\end{acknowledgements}
+		
+		\tableofcontents
+		
+		\listoftables
+		
+		\listoffigures
+		
+		% Add CHAPTER into table of contents.
+		\addtocontents{toc}{%
+			\noindent CHAPTER
+		}
+		
+	\end{frontmatter}
+	
+	\pagestyle{plain}
+	
+	\renewcommand{\baselinestretch}{1.66}
+	
+	\input{chapter-outline}
+	
+	\nocite{*}
+	\bibliography{bibliography}
+	
+	% Indents Appendix in Table of Contents
+	\makeatletter
+	\addtocontents{toc}{\let\protect\l@chapter\protect\l@section}
+	\makeatother
+	
+	% Hack to make Appendices to appear in Table of Contents
+	\addtocontents{toc}{%
+		\noindent APPENDICES
+	}
+	\begin{appendices}
+		\input{appendix-outline}
+	\end{appendices}
+	
 \end{document}

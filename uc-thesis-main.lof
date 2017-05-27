@@ -1,0 +1,16 @@
+\hbox to \linewidth {\hspace {1.5em}Figure\hfill Page}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The Leitner system. If a student answers a flashcard correctly, it is moved to a higher-numbered box that is reviewed less frequently.\relax }}{2}{figure.caption.4}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Caption\relax }}{3}{figure.caption.5}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Duolingo}}{4}{figure.caption.6}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Memrise}}{5}{figure.caption.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Variable ratio rewards scheduling. Note that as rewards are spaced out randomly, the desired behavior appears much more quickly.\relax }}{9}{figure.caption.8}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Classcraft user interface. Note the student's health and mana pool, as well as the list of other students in the classroom.\relax }}{13}{figure.caption.9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The "Home" screen for Polycommit. Students can see their current progress and can click on a course to answer challenges.\relax }}{17}{figure.caption.10}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The "Home" screen for Polycommit. Students can see their current progress and can click on a course to answer challenges.\relax }}{18}{figure.caption.11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Graph of Commitment versus the student's score on the midterm.\relax }}{20}{figure.caption.12}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Survey responses from users of Polycommit.\relax }}{21}{figure.caption.13}
