@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.1)  28 MAY 2017 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.1)  30 MAY 2017 06:39
 entering extended mode
 **./uc-thesis-main.tex
 (uc-thesis-main.tex
@@ -242,6 +242,24 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip53
+\LTright=\skip54
+\LTpre=\skip55
+\LTpost=\skip56
+\LTchunksize=\count111
+\LTcapwidth=\dimen129
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count112
+\LT@rows=\count113
+\c@LT@tables=\count114
+\c@LT@chunks=\count115
+\LT@p@ftn=\toks23
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -255,18 +273,18 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count111
-\Gm@cntv=\count112
-\c@Gm@tempcnt=\count113
-\Gm@bindingoffset=\dimen129
-\Gm@wd@mp=\dimen130
-\Gm@odd@mp=\dimen131
-\Gm@even@mp=\dimen132
-\Gm@layoutwidth=\dimen133
-\Gm@layoutheight=\dimen134
-\Gm@layouthoffset=\dimen135
-\Gm@layoutvoffset=\dimen136
-\Gm@dimlist=\toks23
+\Gm@cnth=\count116
+\Gm@cntv=\count117
+\c@Gm@tempcnt=\count118
+\Gm@bindingoffset=\dimen130
+\Gm@wd@mp=\dimen131
+\Gm@odd@mp=\dimen132
+\Gm@even@mp=\dimen133
+\Gm@layoutwidth=\dimen134
+\Gm@layoutheight=\dimen135
+\Gm@layouthoffset=\dimen136
+\Gm@layoutvoffset=\dimen137
+\Gm@dimlist=\toks24
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
@@ -291,10 +309,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks24
-\XKV@tempa@toks=\toks25
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
 )
-\XKV@depth=\count114
+\XKV@depth=\count119
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty"
@@ -302,10 +320,10 @@ Package: mfirstuc 2016/07/31 v2.04 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count115
+\etb@tempcnta=\count120
 )
-\@glsmfirst=\toks26
-\@glsmrest=\toks27
+\@glsmfirst=\toks27
+\@glsmrest=\toks28
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xfor\xfor.sty"
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -315,7 +333,7 @@ Package: datatool-base 2016/07/28 v2.27 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\substr\substr.sty"
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count116
+\c@su@anzahl=\count121
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty"
 Package: datatool-fp 2016/07/28 v2.27 (NLCT)
@@ -326,19 +344,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
 Package: defpattern 1994/10/12
-\actioncount=\count117
+\actioncount=\count122
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
 Package: fp-basic 1996/05/13
-\FP@xs=\count118
-\FP@xia=\count119
-\FP@xib=\count120
-\FP@xfa=\count121
-\FP@xfb=\count122
-\FP@rega=\count123
-\FP@regb=\count124
-\FP@regs=\count125
-\FP@times=\count126
+\FP@xs=\count123
+\FP@xia=\count124
+\FP@xib=\count125
+\FP@xfa=\count126
+\FP@xfb=\count127
+\FP@rega=\count128
+\FP@regb=\count129
+\FP@regs=\count130
+\FP@times=\count131
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
 Package: fp-addons 1995/03/15
@@ -357,7 +375,7 @@ Package: fp-pas 1994/08/29
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
 Package: fp-random 1995/02/23
-\FPseed=\count127
+\FPseed=\count132
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
@@ -368,59 +386,39 @@ Package: fp-upn 1996/10/21
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks28
-\@dtl@tmpcount=\count128
-\dtl@tmplength=\skip53
-\dtl@sortresult=\count129
-\@dtl@numgrpsepcount=\count130
-\@dtl@datatype=\count131
-\dtl@codeA=\count132
-\dtl@codeB=\count133
-\@dtl@foreach@level=\count134
+\@dtl@toks=\toks29
+\@dtl@tmpcount=\count133
+\dtl@tmplength=\skip57
+\dtl@sortresult=\count134
+\@dtl@numgrpsepcount=\count135
+\@dtl@datatype=\count136
+\dtl@codeA=\count137
+\dtl@codeB=\count138
+\@dtl@foreach@level=\count139
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-3
 07.sty"
 Package: glossaries-compatible-307 2017/01/19 v4.29 (NLCT)
 )
-\gls@level=\count135
-\@gls@tmpb=\toks29
-\gls@tmplen=\skip54
-\glskeylisttok=\toks30
-\glslabeltok=\toks31
-\glsshorttok=\toks32
-\glslongtok=\toks33
+\gls@level=\count140
+\@gls@tmpb=\toks30
+\gls@tmplen=\skip58
+\glskeylisttok=\toks31
+\glslabeltok=\toks32
+\glsshorttok=\toks33
+\glslongtok=\toks34
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
 "
 Package: glossary-hypernav 2017/01/19 v4.29 (NLCT)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty"
 Package: glossary-list 2017/01/19 v4.29 (NLCT)
-\glslistdottedwidth=\skip55
+\glslistdottedwidth=\skip59
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty"
 Package: glossary-long 2017/01/19 v4.29 (NLCT)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip56
-\LTright=\skip57
-\LTpre=\skip58
-\LTpost=\skip59
-\LTchunksize=\count136
-\LTcapwidth=\dimen137
-\LT@head=\box28
-\LT@firsthead=\box29
-\LT@foot=\box30
-\LT@lastfoot=\box31
-\LT@cols=\count137
-\LT@rows=\count138
-\c@LT@tables=\count139
-\c@LT@chunks=\count140
-\LT@p@ftn=\toks34
-)
 \glsdescwidth=\skip60
 \glspagelistwidth=\skip61
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty"
 Package: glossary-super 2017/01/19 v4.29 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
@@ -679,20 +677,20 @@ Writing index file uc-thesis-main.idx
 (uc-thesis-main.aux)
 \openout1 = `uc-thesis-main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -769,7 +767,7 @@ G,.JBIG2,.JB2,.eps]
 
 \c@lstlisting=\count176
 \AtBeginShipoutBox=\box48
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 74.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -778,9 +776,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count177
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
 
 (uc-thesis-main.out) (uc-thesis-main.out)
 \@outlinefile=\write4
@@ -789,35 +787,35 @@ LaTeX Info: Redefining \nameref on input line 73.
  (frontmatter.tex) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
  [2]
-LaTeX Font Info:    Try loading font information for U+msa on input line 86.
+LaTeX Font Info:    Try loading font information for U+msa on input line 87.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 86.
+LaTeX Font Info:    Try loading font information for U+msb on input line 87.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (216.0877pt too wide) in paragraph at lines 86--86
+Overfull \hbox (216.0877pt too wide) in paragraph at lines 87--87
 []|[] 
  []
 
 
-Overfull \hbox (216.0877pt too wide) in paragraph at lines 86--86
+Overfull \hbox (216.0877pt too wide) in paragraph at lines 87--87
 []|[] 
  []
 
 
-Overfull \hbox (216.0877pt too wide) in paragraph at lines 86--86
+Overfull \hbox (216.0877pt too wide) in paragraph at lines 87--87
 []|[] 
  []
 
@@ -834,25 +832,20 @@ Overfull \hbox (216.0877pt too wide) in paragraph at lines 86--86
 
  [8
 
-] (uc-thesis-main.lof)
+] (uc-thesis-main.lof [9
+
+])
 \tf@lof=\write7
 \openout7 = `uc-thesis-main.lof'.
 
- [9
-
-] (chapter-outline.tex
-(chapters/Introduction.tex
+ [10] (chapter-outline.tex (chapters/Introduction.tex
 \uppercase {Chapter} 1.
-<figures/leitner.png, id=300, 461.725pt x 250.9375pt>
-File: figures/leitner.png Graphic file (type png)
+<figures/forgetting-curve.png, id=347, 837.1275pt x 533.995pt>
+File: figures/forgetting-curve.png Graphic file (type png)
 
-<use figures/leitner.png>
-Package pdftex.def Info: figures/leitner.png used on input line 20.
-(pdftex.def)             Requested size: 461.72388pt x 250.93687pt.
-
-Overfull \hbox (28.10387pt too wide) in paragraph at lines 20--21
-[][] 
- []
+<use figures/forgetting-curve.png>
+Package pdftex.def Info: figures/forgetting-curve.png used on input line 20.
+(pdftex.def)             Requested size: 433.62001pt x 276.5953pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -864,45 +857,60 @@ been already used, duplicate ignored
 l.26 
       [1
 
-] <duolingo.png, id=309, 1277.77374pt x 966.61125pt>
-File: duolingo.png Graphic file (type png)
+] [2 <./figures/forgetting-curve.png>]
+<figures/leitner.png, id=364, 461.725pt x 250.9375pt>
+File: figures/leitner.png Graphic file (type png)
 
-<use duolingo.png>
-Package pdftex.def Info: duolingo.png used on input line 38.
+<use figures/leitner.png>
+Package pdftex.def Info: figures/leitner.png used on input line 46.
+(pdftex.def)             Requested size: 461.72388pt x 250.93687pt.
+
+Overfull \hbox (28.10387pt too wide) in paragraph at lines 46--47
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] <duolingo.png, id=373, 1277.77374pt x 966.61125pt>
+File: duolingo.png Graphic file (type png)
+ <use duolingo.png>
+Package pdftex.def Info: duolingo.png used on input line 64.
 (pdftex.def)             Requested size: 520.34268pt x 393.62881pt.
- [2 <./figures/leitner.png>] [3 <./duolingo.png>]
-<memrise.png, id=322, 967.615pt x 910.40125pt>
+
+[4 <./figures/leitner.png>] [5 <./duolingo.png>]
+<memrise.png, id=386, 967.615pt x 910.40125pt>
 File: memrise.png Graphic file (type png)
  <use memrise.png>
-Package pdftex.def Info: memrise.png used on input line 51.
+Package pdftex.def Info: memrise.png used on input line 77.
 (pdftex.def)             Requested size: 303.53267pt x 285.58322pt.
- [4 <./memrise.png>] [5]) (chapters/Background.tex [6]
+ [6 <./memrise.png>] [7]) (chapters/Background.tex [8]
 \uppercase {Chapter} 2.
-[7
+[9
 
-] <figures/variable_ratio.jpg, id=351, 1686.3pt x 677.53125pt>
+] <figures/variable_ratio.jpg, id=415, 1686.3pt x 677.53125pt>
 File: figures/variable_ratio.jpg Graphic file (type jpg)
 
 <use figures/variable_ratio.jpg>
 Package pdftex.def Info: figures/variable_ratio.jpg used on input line 14.
 (pdftex.def)             Requested size: 433.62001pt x 174.2207pt.
- [8 <./figures/variable_ratio.jpg>] [9])
-(chapters/RelatedWork.tex [10]
+ [10 <./figures/variable_ratio.jpg>] [11])
+(chapters/RelatedWork.tex [12]
 \uppercase {Chapter} 3.
-[11
+[13
 
-] <figures/classcraft.jpg, id=381, 1284.8pt x 785.93625pt>
+] <figures/classcraft.jpg, id=444, 1284.8pt x 785.93625pt>
 File: figures/classcraft.jpg Graphic file (type jpg)
 
 <use figures/classcraft.jpg>
 Package pdftex.def Info: figures/classcraft.jpg used on input line 20.
 (pdftex.def)             Requested size: 433.62001pt x 265.24803pt.
- [12 <./figures/classcraft.jpg>])
-(chapters/Experiment.tex [13]
+ [14 <./figures/classcraft.jpg>])
+(chapters/Experiment.tex [15]
 \uppercase {Chapter} 4.
-[14
+[16
 
-] <figures/polycommit-screen.png, id=401, 387.69844pt x 542.77782pt>
+] <figures/polycommit-screen.png, id=465, 387.69844pt x 542.77782pt>
 File: figures/polycommit-screen.png Graphic file (type png)
 
 <use figures/polycommit-screen.png>
@@ -912,36 +920,36 @@ Package pdftex.def Info: figures/polycommit-screen.png used on input line 17.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/polycommit-challenges.png, id=403, 341.77687pt x 508.90125pt>
+<figures/polycommit-challenges.png, id=467, 341.77687pt x 508.90125pt>
 File: figures/polycommit-challenges.png Graphic file (type png)
 
 <use figures/polycommit-challenges.png>
 Package pdftex.def Info: figures/polycommit-challenges.png used on input line 2
 8.
 (pdftex.def)             Requested size: 341.77603pt x 508.90001pt.
- [15]
-<figures/pc-question.png, id=411, 341.02406pt x 429.85594pt>
+ [17]
+<figures/pc-question.png, id=475, 341.02406pt x 429.85594pt>
 File: figures/pc-question.png Graphic file (type png)
 
 <use figures/pc-question.png>
 Package pdftex.def Info: figures/pc-question.png used on input line 41.
 (pdftex.def)             Requested size: 341.02322pt x 429.85489pt.
 
-<figures/pc-feedback.png, id=412, 363.60844pt x 564.60938pt>
+<figures/pc-feedback.png, id=476, 363.60844pt x 564.60938pt>
 File: figures/pc-feedback.png Graphic file (type png)
 
 <use figures/pc-feedback.png>
 Package pdftex.def Info: figures/pc-feedback.png used on input line 48.
 (pdftex.def)             Requested size: 363.60754pt x 564.60799pt.
 
-<figures/pc-incorrect.png, id=413, 401.24907pt x 493.0922pt>
+<figures/pc-incorrect.png, id=477, 401.24907pt x 493.0922pt>
 File: figures/pc-incorrect.png Graphic file (type png)
 
 <use figures/pc-incorrect.png>
 Package pdftex.def Info: figures/pc-incorrect.png used on input line 54.
 (pdftex.def)             Requested size: 401.24808pt x 493.09099pt.
 
-<figures/pc-toast.png, id=415, 398.23781pt x 218.31563pt>
+<figures/pc-toast.png, id=479, 398.23781pt x 218.31563pt>
 File: figures/pc-toast.png Graphic file (type png)
 
 <use figures/pc-toast.png>
@@ -950,7 +958,7 @@ Package pdftex.def Info: figures/pc-toast.png used on input line 64.
 
 
 LaTeX Warning: Hyper reference `https://github.com/elliotfiske/commitment' on p
-age 16 undefined on input line 71.
+age 18 undefined on input line 71.
 
 
 Overfull \hbox (18.88481pt too wide) in paragraph at lines 70--72
@@ -958,36 +966,73 @@ Overfull \hbox (18.88481pt too wide) in paragraph at lines 70--72
 s avail-able here: https://github.com/elliotfiske/commitment 
  []
 
-[16]
+[18]
 
-LaTeX Warning: Reference `fig:postman' on page 17 undefined on input line 78.
+LaTeX Warning: Reference `fig:postman' on page 19 undefined on input line 78.
 
-) (chapters/Validation.tex [17] [18] [19 <./figures/polycommit-screen.png>]
-[20 <./figures/polycommit-challenges.png>] [21 <./figures/pc-question.png>]
-[22 <./figures/pc-feedback.png>] [23 <./figures/pc-incorrect.png>] [24 <./figur
-es/pc-toast.png>]
+) (chapters/Validation.tex [19] [20 <./figures/polycommit-screen.png>] [21 <./f
+igures/polycommit-challenges.png>] [22 <./figures/pc-question.png>] [23 <./figu
+res/pc-feedback.png>] [24 <./figures/pc-incorrect.png>] [25 <./figures/pc-toast
+.png>]
 \uppercase {Chapter} 5.
-<figures/commitment-data1.png, id=462, 283.81032pt x 223.58531pt>
+[26
+
+] <figures/commitment-data1.png, id=527, 283.81032pt x 223.58531pt>
 File: figures/commitment-data1.png Graphic file (type png)
 
 <use figures/commitment-data1.png>
-Package pdftex.def Info: figures/commitment-data1.png used on input line 14.
+Package pdftex.def Info: figures/commitment-data1.png used on input line 26.
 (pdftex.def)             Requested size: 283.80962pt x 223.58475pt.
- [25
 
-]
-<figures/likert.png, id=467, 662.475pt x 792.71156pt>
+<figures/cramming-data.png, id=528, 602.25pt x 372.39125pt>
+File: figures/cramming-data.png Graphic file (type png)
+
+<use figures/cramming-data.png>
+Package pdftex.def Info: figures/cramming-data.png used on input line 33.
+(pdftex.def)             Requested size: 602.24852pt x 372.39034pt.
+
+Overfull \hbox (168.62851pt too wide) in paragraph at lines 33--34
+[][] 
+ []
+
+<figures/likert.png, id=529, 662.475pt x 792.71156pt>
 File: figures/likert.png Graphic file (type png)
  <use figures/likert.png>
-Package pdftex.def Info: figures/likert.png used on input line 29.
+Package pdftex.def Info: figures/likert.png used on input line 48.
 (pdftex.def)             Requested size: 433.62001pt x 518.86096pt.
-) (chapters/Conclusion.tex)) (uc-thesis-main.bbl [26 <./figures/commitment-data
-1.png>] [27 <./figures/likert.png>] [28
+
+[27] [28 <./figures/commitment-data1.png>]
+<figures/deadlock-nonusers.png, id=543, 329.23pt x 372.39125pt>
+File: figures/deadlock-nonusers.png Graphic file (type png)
+
+<use figures/deadlock-nonusers.png>
+Package pdftex.def Info: figures/deadlock-nonusers.png used on input line 76.
+(pdftex.def)             Requested size: 216.81pt x 245.23917pt.
+ [29 <./figures/cramming-data.png>] [30 <./figures/likert.png>]
+<figures/deadlock-users.png, id=559, 319.1925pt x 372.39125pt>
+File: figures/deadlock-users.png Graphic file (type png)
+
+<use figures/deadlock-users.png>
+Package pdftex.def Info: figures/deadlock-users.png used on input line 82.
+(pdftex.def)             Requested size: 216.81pt x 252.94426pt.
+ [31 <./figures/deadlock-nonusers.png> <./figures/deadlock-users.png>]
+<figures/improved-vs-score.png, id=568, 489.32813pt x 290.58563pt>
+File: figures/improved-vs-score.png Graphic file (type png)
+
+<use figures/improved-vs-score.png>
+Package pdftex.def Info: figures/improved-vs-score.png used on input line 92.
+(pdftex.def)             Requested size: 433.62001pt x 257.50746pt.
+) (chapters/Conclusion.tex)) [32 <./figures/improved-vs-score.png>] (uc-thesis-
+main.bbl [33] [34
 
 ]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [35]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -997,16 +1042,45 @@ Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [29]) (appendix-outline.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
- [30]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
+ [36])
+(appendix-outline.tex
 
-(uc-thesis-main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 2.
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 6--48
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 48
+ []
+
+
+Overfull \hbox (12.79999pt too wide) in alignment at lines 48--88
+ [] 
+ []
+
+[37]
+Overfull \hbox (12.79999pt too wide) in alignment at lines 88--128
+ [] 
+ []
+
+[38]
+Overfull \hbox (12.79999pt too wide) in alignment at lines 128--152
+ [] 
+ []
+
+[39] [40])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+ [41]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+ (uc-thesis-main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
 Package rerunfilecheck Info: File `uc-thesis-main.out' has not changed.
-(rerunfilecheck)             Checksum: 938F227F9E14CE42151DC1F3FC517469;2724.
+(rerunfilecheck)             Checksum: 97553D02BE667C8510AC9D330E1A4F61;3002.
 
 
 LaTeX Warning: There were undefined references.
@@ -1017,22 +1091,26 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16250 strings out of 493333
- 253717 string characters out of 3139192
- 441441 words of memory out of 3000000
- 19346 multiletter control sequences out of 15000+200000
- 10321 words of font info for 39 fonts, out of 3000000 for 9000
+ 16345 strings out of 493333
+ 255500 string characters out of 3139192
+ 452441 words of memory out of 3000000
+ 19401 multiletter control sequences out of 15000+200000
+ 10680 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 136i,11n,131p,1950b,6402s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 136i,11n,131p,1950b,6529s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on uc-thesis-main.pdf (39 pages, 1840040 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmtt12.pfb>
+Output written on uc-thesis-main.pdf (51 pages, 1972051 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 402 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 692 PDF objects out of 1000 (max. 8388607)
+ 153 named destinations out of 1000 (max. 500000)
+ 459 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,6 +9,13 @@ A.~Bruckman.
 \newblock Can educational be fun.
 \newblock In {\em Game developers conference}, volume~99, pages 75--79, 1999.
 
+\bibitem{Deterding:2011:GDE:2181037.2181040}
+S.~Deterding, D.~Dixon, R.~Khaled, and L.~Nacke.
+\newblock From game design elements to gamefulness: Defining "gamification".
+\newblock In {\em Proceedings of the 15th International Academic MindTrek
+  Conference: Envisioning Future Media Environments}, MindTrek '11, pages
+  9--15, New York, NY, USA, 2011. ACM.
+
 \bibitem{dodin2001integrated}
 B.~Dodin and A.~Elimam.
 \newblock Integrated project scheduling and material planning with variable
@@ -26,6 +33,13 @@ D.~Edge, S.~Fitchett, M.~Whitney, and J.~Landay.
 C.~B. Ferster and B.~F. Skinner.
 \newblock Schedules of reinforcement.
 \newblock 1957.
+
+\bibitem{fiske2016spaced}
+S.~T. Fiske and S.~H. Kang.
+\newblock Spaced repetition promotes efficient and effective learning: Policy
+  implications for instruction.
+\newblock {\em Policy Insights from the Behavioral and Brain Sciences},
+  3(1):12--19, 2016.
 
 \bibitem{hardy_heyes_1999}
 M.~Hardy and S.~Heyes.
@@ -55,6 +69,13 @@ P.~Lally, C.~H. Van~Jaarsveld, H.~W. Potts, and J.~Wardle.
 \newblock How are habits formed: Modelling habit formation in the real world.
 \newblock {\em European journal of social psychology}, 40(6):998--1009, 2010.
 
+\bibitem{doi:10.1177/0956797613504302}
+R.~V. Lindsey, J.~D. Shroyer, H.~Pashler, and M.~C. Mozer.
+\newblock Improving students’ long-term knowledge retention through
+  personalized review.
+\newblock {\em Psychological Science}, 25(3):639--647, 2014.
+\newblock PMID: 24444515.
+
 \bibitem{lingawi2016physiological}
 N.~W. Lingawi, A.~Dezfouli, and B.~W. Balleine.
 \newblock Physiological mechanisms of habit formation.
@@ -74,6 +95,11 @@ S.~Orbell and B.~Verplanken.
 \newblock The automatic component of habit in health behavior: habit as
   cue-contingent automaticity.
 \newblock {\em Health psychology}, 29(4):374, 2010.
+
+\bibitem{pimsleur1967memory}
+P.~Pimsleur.
+\newblock A memory schedule.
+\newblock {\em The Modern Language Journal}, 51(2):73--75, 1967.
 
 \bibitem{rachels2016effect}
 J.~Rachels.

@@ -14,6 +14,25 @@
 \section{Definitions}
 
 \subsection{Spaced Repetition}
+\par Spaced repetition is a learning technique first coined by Dr. Paul Pimsleur in 1967 \cite{pimsleur1967memory}. Dr. Pimsleur noted the existence of a "forgetting curve." (See \textbf{\hyperref[fig:forgetting-curve]{Figure \ref*{fig:forgetting-curve}}}) The first moment a piece of information is learned, the subject is 100\% likely to be able to correctly recall it. However, as early as the first day after initially learning the information, the subject's retention rate of the information begins rapidly decaying. By reviewing the information, the retention rate is brought back to 100\%, and the subsequent decay of retention is substantially \textit{flattened}. That is, as students review information over time, it is encoded into their long-term memory, and they are less likely to forget it over a long period of time.
+
+\begin{figure}[h]
+	\includegraphics[width=1.0\linewidth]{figures/forgetting-curve}
+	\caption{The "Forgetting Curve," as presented by Dr. Pimsleur in 1967. The y-axis represents the subject's likelihood of recalling a specific piece of information at the given time.}
+	\label{fig:forgetting-curve}
+\end{figure}
+
+\par Dr. Pimsleur initially proposed spaced repetition as a technique solely for learning a new foreign language, but spaced repetition has been proven to be effective for any classroom setting. As Kang notes in \cite{fiske2016spaced}, it is intuitive that information needs to be practiced and reviewed over time to be fully integrated into a student's understanding, but Dr. Pimsleur's techniques provide a quantifiable, scientific schedule to maximize retention.
+
+\par Kang et al. \cite{fiske2016spaced} also attempts to find the "Optimal Spacing Lag," or the optimal time between each review session for a particular piece of information after a long period. They find that this optimal spacing lag is around 10\% to 20\% of the time between initial introduction of the information and the test date. That is, if the test is 10 weeks away, even the oldest information should be reviewed with at most a 1-2 week lag.
+
+\subsection{Gamification}
+\par The term "gamification" first appeared in 2008 \cite{Deterding:2011:GDE:2181037.2181040}, but the concept wasn't considered mainstream until 2011 with the advent of Foursquare. Foursquare is an app that takes the mundane concept of reviewing restaurants and finding new places to visit and turns it into a 
+
+
+
+ One of the key aspects of Commit is its use of spaced repetition. Spaced repetition is an idea first brought into the mainstream by Pimsleur in the 1960s. Spaced repetition is a learning technique where students reinforce learned knowledge at specific intervals, improving long-term retention and recall ability.
+
 
 \par In this paper, we introduce \textit{Commit}, a novel web-based application that uses spaced repitition and gamification elements to educational courses. For this thesis, \textit{Commit} was deployed to a variety of classes at California Polytechnic State University to measure its effect on student engagement and learning.
 
@@ -23,8 +42,6 @@
 %\par Gamifying in education has several hurdles. Gamification tends to come with a negative stigma; teachers often feel that gamified services aren't as "serious" as other learning technologies. In addition, existing education gamification solutions have usability issues and are not accessible to students that don't have a background in videogames.
 
 \section{Spaced Repetition}
-\par One of the key aspects of Commit is its use of spaced repetition. Spaced repetition is an idea first brought into the mainstream by Pimsleur in the 1960s. Spaced repetition is a learning technique where students reinforce learned knowledge at specific intervals, improving long-term retention and recall ability.
-
 \begin{figure}[h]
 	\includegraphics{figures/leitner}
 	\caption{The Leitner system. If a student answers a flashcard correctly, it is moved to a higher-numbered box that is reviewed less frequently.}
