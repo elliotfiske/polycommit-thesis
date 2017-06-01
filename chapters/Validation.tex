@@ -1,24 +1,30 @@
 \chapter{Validation}
-\section{Results}
-\par The experiment was carried out across the first half of the Spring 2017 quarter at Cal Poly. 130 students signed up across 4 classes. By the end of the experiment, just over 3200 answers had been submitted to the application.
 
-\subsection{Data Gathering}
-\subsubsection{Final Survey}
-\par After the experiment was concluded, all participants were sent a link to a survey where they could give feedback about their overall experience using \textit{Polycommit}. As an incentive, any participant who filled out the survey received +3 Commitment and +50 points (equal to an additional entry in the gift card raffle). A total of 70 participants filled out the post-experiment survey.
+\par The experiment was carried out over the first half of the Spring 2017 quarter at Cal Poly. 130 students signed up across 4 classes. By the end of the experiment, just over 3200 answers had been submitted to the application.
 
-\subsubsection{Midterm Scores}
+\section{Data Gathering}
+
+\subsection{Midterm Scores}
 \par In order to gauge the effectiveness of \textit{Polycommit}, we collected scores on quizzes and exams and aggregated the data to be analyzed. For \textbf{Introduction to Operating Systems}, data collection was extremely simple as all the quizzes and midterms were administered through an online exam. This allowed us to easily obtain data on how students performed on specific midterm questions that aligned with questions asked in \textit{Polycommit}.
 
 \par However, the other classes were not as simple. The other classes administered paper midterms, and we did not have access to the papers as they were being graded. As such, we administered a secondary survey to all the students in the class asking them to input their midterm scores for various questions.
 
+\subsection{Final Survey}
+\par After the experiment was concluded, all participants were sent a link to a survey where they could give feedback about their overall experience using \textit{Polycommit}. As an incentive, any participant who filled out the survey received +3 Commitment and +50 points (equal to an additional entry in the gift card raffle). A total of 70 participants filled out the post-experiment survey.
+
 \subsection{Limitations}
-\par Certain restrictions were necessary in order to run this experiment. Most importantly, according to Cal Poly's human research regulations, studies about educational tools must be offered to all participants in a class. Thus, there was no true "control group" since any student could opt-in or opt-out of using the application.
+\par Certain tradeoffs were necessary in order to run this experiment.
+\subsubsection{No Control Group} 
+\par Most importantly, there is no true control group for this experiment. We decided that it would be more advantageous to offer the application to all students in each section of the classes. This simplified the onboarding process, as we could present the application to all members of the class at once, and allow anyone to sign up. It also prevented potential issues where students might perceive it as unfair that certain students were give access to a study resource and others were not. In addition, this allowed more students to participate in the experiment, giving us access to more data and more user feedback.
 
-\par As noted above, students were asked to input their midterm scores in an online form. We have no way of determining if this data was accurately entered; students may feel tempted to enter a higher score than they actually received.
+\par As such, it's important to note that the students who participated in the study \textbf{self-selected} to become part of the experiment. Students who \textbf{did not} use the app can't be considered a control group, because they are not a random selection from the whole population. Allowing students to self-select may have introduced confounding variables. For example, perhaps students who are confident in their study techniques would choose to not participate, making the average midterm scores higher for non-participants.
 
-\subsection{Overall Data}
-\subsubsection{Cramming vs. Commitment}
-\par First, consider the relationship between a student's overall score on the midterm and their Commitment (\textbf{\hyperref[fig:comm_vs_score]{Figure \ref*{fig:comm_vs_score}}}). No student that actively used the app (more than 10 Commitment) got less than 30/50 as a final score. This supports the idea that students benefit from consistent repetition over a longer period of time.
+\subsubsection{Self-Reporting Midterm Scores}
+\par As noted above, students were asked to input their midterm scores in an online form. We have no way of determining if this data was accurately entered; students may feel tempted to enter a higher score than they actually received. Note that we \textit{do} have access to the overall midterm scores, so the issue only arises when analyzing individual questions on the exams. Data that has been affected by this issue is clearly marked in the upcoming sections.
+
+\section{Overall Results}
+\subsection{Cramming vs. Commitment}
+\par First, consider the relationship between a student's overall score on the midterm and their Commitment (\textbf{\hyperref[fig:comm_vs_score]{Figure \ref*{fig:comm_vs_score}}}).
  
  \par 
  
@@ -49,7 +55,6 @@
 	\caption{Survey responses from users of Polycommit.}
 	\label{fig:likert}
 \end{figure}
-
 
 \subsection{Individual Questions}
 Certain questions on the midterm matched closely with the content of the questions that were repeated on \textit{Polycommit}. We can analyze midterm results to see if the students that drilled related problems in \textit{Polycommit} performed better on the related questions during the midterm.
@@ -86,7 +91,7 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 
 \par The mean score for \textbf{non-users} is 3.30, and the mean score for \textbf{users} is 3.31. Thus, using \textit{Polycommit} had a negligible effect on the average score of the participants. However, note that 23/26 \textbf{non-users} received a score greater than 3, while 34/37 \textbf{users} received a score greater than 3. This could reflect the fact that \textit{Polycommit} only referenced 3 out of the 4 conditions for deadlock, as the 4th condition in the problem was a false plant. Although all 4 conditions are listed in the "explanation" field for the problem, by default if a student answers the question correctly they are brought back to the course page. Thus, students who participated in \textit{Polycommit} were only drilled on 3 out of the 4 conditions for deadlock, which would explain the overall performance on the midterm.
 
-\par One interesting result comes by grouping midterm scores by the user's response to "Polycommit improved my scores on quizzes and exams" (See \textbf{\hyperref[fig:overconfidence]{Figure \ref*{fig:overconfidence}}}). Students who reported that Polycommit did \textit{not} improve their scores scored substantially higher than students who did. One explanation for this is that students who 
+\par One interesting result comes by grouping midterm scores by the user's response to "Polycommit improved my scores on quizzes and exams" (See \textbf{\hyperref[fig:overconfidence]{Figure \ref*{fig:overconfidence}}}). Students who reported that Polycommit did \textit{not} improve their scores scored substantially higher than students who did. One explanation for this is that students who were already confident about their studying habits or had prior experience with 
 
 \begin{figure}[h]
 	\includegraphics[width=1.0\linewidth]{figures/improved-vs-score}
@@ -94,6 +99,19 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 	\label{fig:overconfidence}
 \end{figure}
 
+\section {Coded User Feedback}
+
+At the end of the experiment, we contacted all of the participants with a final survey that asked them questions about their usage of the app. It also included two free-response questions about 
+
+\begin{enumerate}
+	\item Problems or confusions with the user interface
+	\item Questions were not correct or were confusing
+	\item Questions did not represent test material
+	\item App needed more gamification, excitement, or incentive to use
+	\item Other
+\end{enumerate}
+
+\input{chapters/UserFeedbackList}
 
 
 % TO DO: Put statistics for individual questions here. Note that deadlock wasn't improved by much, SJF actually got worse. Bring up possibility that students who sought out the app perhaps had less prior understanding of the course content or less consistent original study habits, leading to a selection bias that made them perform more poorly.
