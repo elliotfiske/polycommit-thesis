@@ -7,46 +7,47 @@
 \contentsline {section}{\numberline {1.2}Definitions}{1}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Spaced Repetition}{1}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Gamification}{3}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Why College Classes?}{4}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Spaced Repitition Apps}{4}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Duolingo}{4}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Memrise}{6}{subsection.1.3.2}
-\contentsline {chapter}{\numberline {2}Background}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Early Computing}{8}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Pressey and Skinner}{8}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Skinner Boxes and Operant Conditioning}{8}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Variable Ratio Reinforcement Scheduling}{9}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Duolingo}{9}{section.2.2}
-\contentsline {section}{\numberline {2.3}Habits}{10}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}New Psychological Theories}{11}{subsection.2.3.1}
-\contentsline {chapter}{\numberline {3}Related Work}{12}{chapter.3}
-\contentsline {section}{\numberline {3.1}Habit Formation}{12}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Habit Formation and User Interface}{12}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Memrise}{12}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Gamification}{12}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Classcraft}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Classcraft Study}{14}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Gamification in Other Educational Areas}{14}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Experiment}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}UI Overview}{15}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Home Scren}{15}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Course Screen}{16}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Challenge Screen}{16}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Toasts}{17}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Technology Used}{17}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Test-First Methodology}{18}{subsection.4.2.1}
-\contentsline {chapter}{\numberline {5}Validation}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}Results}{25}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Data Gathering}{25}{subsection.5.1.1}
-\contentsline {subsubsection}{Final Survey}{25}{subsubsection*.16}
-\contentsline {subsubsection}{Midterm Scores}{25}{subsubsection*.17}
-\contentsline {subsection}{\numberline {5.1.2}Limitations}{26}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Overall Data}{26}{subsection.5.1.3}
-\contentsline {subsubsection}{Cramming vs. Commitment}{26}{subsubsection*.18}
-\contentsline {subsection}{\numberline {5.1.4}Individual Questions}{27}{subsection.5.1.4}
-\contentsline {subsubsection}{Introduction to Operating Systems}{27}{subsubsection*.22}
-\contentsline {section}{\numberline {5.2}Conclusion and Future Work}{32}{section.5.2}
-\contentsline {chapter}{BIBLIOGRAPHY}{33}{chapter*.26}
+\contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Early Computing}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Pressey and Skinner}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Skinner Boxes and Operant Conditioning}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Variable Ratio Reinforcement Scheduling}{6}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Duolingo}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Habits}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}New Psychological Theories}{8}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {3}Related Work}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Spaced Repitition Apps}{9}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Duolingo}{9}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Memrise}{9}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Habit Formation}{12}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Pocket Points}{12}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Habit Formation and User Interface}{12}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Memrise}{14}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Gamification}{14}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Classcraft}{14}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Classcraft Study}{15}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Gamification in Other Educational Areas}{15}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {4}Experiment}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}UI Overview}{17}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Home Scren}{17}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Course Screen}{18}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Challenge Screen}{18}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Toasts}{19}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Technology Used}{19}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Test-First Methodology}{20}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Coded User Feedback}{21}{section.4.3}
+\contentsline {chapter}{\numberline {5}Validation}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Results}{33}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Data Gathering}{33}{subsection.5.1.1}
+\contentsline {subsubsection}{Final Survey}{33}{subsubsection*.17}
+\contentsline {subsubsection}{Midterm Scores}{33}{subsubsection*.18}
+\contentsline {subsection}{\numberline {5.1.2}Limitations}{34}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Overall Data}{34}{subsection.5.1.3}
+\contentsline {subsubsection}{Cramming vs. Commitment}{34}{subsubsection*.19}
+\contentsline {subsection}{\numberline {5.1.4}Individual Questions}{35}{subsection.5.1.4}
+\contentsline {subsubsection}{Introduction to Operating Systems}{35}{subsubsection*.23}
+\contentsline {section}{\numberline {5.2}Conclusion and Future Work}{40}{section.5.2}
+\contentsline {chapter}{BIBLIOGRAPHY}{41}{chapter*.27}
 \let \l@chapter \l@section 
 \noindent APPENDICES 
-\contentsline {section}{\numberline {.1}\\User Feedback}{36}{section.Alph0.1}
+\contentsline {section}{\numberline {.1}\\User Feedback}{44}{section.Alph0.1}

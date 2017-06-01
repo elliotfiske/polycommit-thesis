@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.1)  30 MAY 2017 07:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.1)  1 JUN 2017 14:16
 entering extended mode
 **./uc-thesis-main.tex
 (uc-thesis-main.tex
@@ -840,7 +840,7 @@ Overfull \hbox (216.0877pt too wide) in paragraph at lines 87--87
 
  [10] (chapter-outline.tex (chapters/Introduction.tex
 \uppercase {Chapter} 1.
-<figures/forgetting-curve.png, id=337, 837.1275pt x 533.995pt>
+<figures/forgetting-curve.png, id=344, 837.1275pt x 533.995pt>
 File: figures/forgetting-curve.png Graphic file (type png)
 
 <use figures/forgetting-curve.png>
@@ -857,7 +857,7 @@ been already used, duplicate ignored
 l.26 
       [1
 
-] <figures/leitner.png, id=347, 461.725pt x 250.9375pt>
+] <figures/leitner.png, id=354, 461.725pt x 250.9375pt>
 File: figures/leitner.png Graphic file (type png)
 
 <use figures/leitner.png>
@@ -871,45 +871,56 @@ Overfull \hbox (28.10387pt too wide) in paragraph at lines 30--31
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 <./figures/forgetting-curve.png>] [3 <./figures/leitner.png>]
-<duolingo.png, id=363, 1277.77374pt x 966.61125pt>
-File: duolingo.png Graphic file (type png)
- <use duolingo.png>
-Package pdftex.def Info: duolingo.png used on input line 57.
-(pdftex.def)             Requested size: 520.34268pt x 393.62881pt.
-
-<memrise.png, id=365, 967.615pt x 910.40125pt>
-File: memrise.png Graphic file (type png)
- <use memrise.png>
-Package pdftex.def Info: memrise.png used on input line 70.
-(pdftex.def)             Requested size: 303.53267pt x 285.58322pt.
- [4] [5 <./duolingo.png>]) (chapters/Background.tex [6 <./memrise.png>] [7]
+[2 <./figures/forgetting-curve.png>] [3 <./figures/leitner.png>])
+(chapters/Background.tex [4]
 \uppercase {Chapter} 2.
-[8
+[5
 
-] <figures/variable_ratio.jpg, id=396, 1686.3pt x 677.53125pt>
+] <figures/variable_ratio.jpg, id=385, 1686.3pt x 677.53125pt>
 File: figures/variable_ratio.jpg Graphic file (type jpg)
 
 <use figures/variable_ratio.jpg>
 Package pdftex.def Info: figures/variable_ratio.jpg used on input line 14.
 (pdftex.def)             Requested size: 433.62001pt x 174.2207pt.
- [9 <./figures/variable_ratio.jpg>] [10])
-(chapters/RelatedWork.tex [11]
+ [6 <./figures/variable_ratio.jpg>] [7])
+(chapters/RelatedWork.tex [8]
 \uppercase {Chapter} 3.
-[12
+<duolingo.png, id=407, 1277.77374pt x 966.61125pt>
+File: duolingo.png Graphic file (type png)
+ <use duolingo.png>
+Package pdftex.def Info: duolingo.png used on input line 10.
+(pdftex.def)             Requested size: 520.34268pt x 393.62881pt.
 
-] <figures/classcraft.jpg, id=426, 1284.8pt x 785.93625pt>
+<memrise.png, id=409, 967.615pt x 910.40125pt>
+File: memrise.png Graphic file (type png)
+ <use memrise.png>
+Package pdftex.def Info: memrise.png used on input line 23.
+(pdftex.def)             Requested size: 303.53267pt x 285.58322pt.
+ [9
+
+] [10 <./duolingo.png>] [11 <./memrise.png>]
+<figures/pocket-points.png, id=427, 297.11pt x 580.1675pt>
+File: figures/pocket-points.png Graphic file (type png)
+
+<use figures/pocket-points.png>
+Package pdftex.def Info: figures/pocket-points.png used on input line 47.
+(pdftex.def)             Requested size: 303.53267pt x 592.73679pt.
+ [12] [13 <./figures/pocket-points.png>]
+<figures/classcraft.jpg, id=441, 1284.8pt x 785.93625pt>
 File: figures/classcraft.jpg Graphic file (type jpg)
 
 <use figures/classcraft.jpg>
-Package pdftex.def Info: figures/classcraft.jpg used on input line 20.
+Package pdftex.def Info: figures/classcraft.jpg used on input line 68.
 (pdftex.def)             Requested size: 433.62001pt x 265.24803pt.
- [13 <./figures/classcraft.jpg>])
-(chapters/Experiment.tex [14]
-\uppercase {Chapter} 4.
-[15
 
-] <figures/polycommit-screen.png, id=447, 387.69844pt x 542.77782pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15 <./figures/classcraft.jpg>]) (chapters/Experiment.tex [16]
+\uppercase {Chapter} 4.
+[17
+
+] <figures/polycommit-screen.png, id=466, 387.69844pt x 542.77782pt>
 File: figures/polycommit-screen.png Graphic file (type png)
 
 <use figures/polycommit-screen.png>
@@ -919,36 +930,36 @@ Package pdftex.def Info: figures/polycommit-screen.png used on input line 17.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/polycommit-challenges.png, id=449, 341.77687pt x 508.90125pt>
+<figures/polycommit-challenges.png, id=468, 341.77687pt x 508.90125pt>
 File: figures/polycommit-challenges.png Graphic file (type png)
 
 <use figures/polycommit-challenges.png>
 Package pdftex.def Info: figures/polycommit-challenges.png used on input line 2
 8.
 (pdftex.def)             Requested size: 341.77603pt x 508.90001pt.
- [16]
-<figures/pc-question.png, id=457, 341.02406pt x 429.85594pt>
+ [18]
+<figures/pc-question.png, id=476, 341.02406pt x 429.85594pt>
 File: figures/pc-question.png Graphic file (type png)
 
 <use figures/pc-question.png>
 Package pdftex.def Info: figures/pc-question.png used on input line 41.
 (pdftex.def)             Requested size: 341.02322pt x 429.85489pt.
 
-<figures/pc-feedback.png, id=458, 363.60844pt x 564.60938pt>
+<figures/pc-feedback.png, id=477, 363.60844pt x 564.60938pt>
 File: figures/pc-feedback.png Graphic file (type png)
 
 <use figures/pc-feedback.png>
 Package pdftex.def Info: figures/pc-feedback.png used on input line 48.
 (pdftex.def)             Requested size: 363.60754pt x 564.60799pt.
 
-<figures/pc-incorrect.png, id=459, 401.24907pt x 493.0922pt>
+<figures/pc-incorrect.png, id=478, 401.24907pt x 493.0922pt>
 File: figures/pc-incorrect.png Graphic file (type png)
 
 <use figures/pc-incorrect.png>
 Package pdftex.def Info: figures/pc-incorrect.png used on input line 54.
 (pdftex.def)             Requested size: 401.24808pt x 493.09099pt.
 
-<figures/pc-toast.png, id=461, 398.23781pt x 218.31563pt>
+<figures/pc-toast.png, id=480, 398.23781pt x 218.31563pt>
 File: figures/pc-toast.png Graphic file (type png)
 
 <use figures/pc-toast.png>
@@ -957,7 +968,7 @@ Package pdftex.def Info: figures/pc-toast.png used on input line 64.
 
 
 LaTeX Warning: Hyper reference `https://github.com/elliotfiske/commitment' on p
-age 17 undefined on input line 71.
+age 19 undefined on input line 71.
 
 
 Overfull \hbox (18.88481pt too wide) in paragraph at lines 70--72
@@ -965,25 +976,51 @@ Overfull \hbox (18.88481pt too wide) in paragraph at lines 70--72
 s avail-able here: https://github.com/elliotfiske/commitment 
  []
 
-[17]
+[19]
 
-LaTeX Warning: Reference `fig:postman' on page 18 undefined on input line 78.
+LaTeX Warning: Reference `fig:postman' on page 20 undefined on input line 78.
 
-) (chapters/Validation.tex [18] [19 <./figures/polycommit-screen.png>] [20 <./f
-igures/polycommit-challenges.png>] [21 <./figures/pc-question.png>] [22 <./figu
-res/pc-feedback.png>] [23 <./figures/pc-incorrect.png>] [24 <./figures/pc-toast
-.png>]
+[20]
+Overfull \hbox (23.90004pt too wide) in alignment at lines 97--120
+ [] [] 
+ []
+
+
+Overfull \hbox (23.90004pt too wide) in alignment at lines 120--140
+ [] [] 
+ []
+
+[21]
+Overfull \hbox (23.90004pt too wide) in alignment at lines 140--160
+ [] [] 
+ []
+
+[22] [23]
+Underfull \hbox (badness 1122) in paragraph at lines 163--164
+[]|\OT1/cmr/m/n/12 Reminders via email (op-tional of course). So-lu-tion ex-pla
+-na-
+ []
+
+
+Overfull \hbox (23.90004pt too wide) in alignment at lines 160--169
+ [] [] 
+ []
+
+[24] [25]) (chapters/Validation.tex [26] [27 <./figures/polycommit-screen.png>]
+[28 <./figures/polycommit-challenges.png>] [29 <./figures/pc-question.png>]
+[30 <./figures/pc-feedback.png>] [31 <./figures/pc-incorrect.png>] [32 <./figur
+es/pc-toast.png>]
 \uppercase {Chapter} 5.
-[25
+[33
 
-] <figures/commitment-data1.png, id=509, 283.81032pt x 223.58531pt>
+] <figures/commitment-data1.png, id=560, 283.81032pt x 223.58531pt>
 File: figures/commitment-data1.png Graphic file (type png)
 
 <use figures/commitment-data1.png>
 Package pdftex.def Info: figures/commitment-data1.png used on input line 26.
 (pdftex.def)             Requested size: 283.80962pt x 223.58475pt.
 
-<figures/cramming-data.png, id=510, 602.25pt x 372.39125pt>
+<figures/cramming-data.png, id=561, 602.25pt x 372.39125pt>
 File: figures/cramming-data.png Graphic file (type png)
 
 <use figures/cramming-data.png>
@@ -994,44 +1031,44 @@ Overfull \hbox (168.62851pt too wide) in paragraph at lines 33--34
 [][] 
  []
 
-<figures/likert.png, id=511, 662.475pt x 792.71156pt>
+<figures/likert.png, id=562, 662.475pt x 792.71156pt>
 File: figures/likert.png Graphic file (type png)
  <use figures/likert.png>
 Package pdftex.def Info: figures/likert.png used on input line 48.
 (pdftex.def)             Requested size: 433.62001pt x 518.86096pt.
 
-[26] [27 <./figures/commitment-data1.png>]
-<figures/deadlock-nonusers.png, id=525, 329.23pt x 372.39125pt>
+[34] [35 <./figures/commitment-data1.png>]
+<figures/deadlock-nonusers.png, id=575, 329.23pt x 372.39125pt>
 File: figures/deadlock-nonusers.png Graphic file (type png)
 
 <use figures/deadlock-nonusers.png>
 Package pdftex.def Info: figures/deadlock-nonusers.png used on input line 76.
 (pdftex.def)             Requested size: 216.81pt x 245.23917pt.
- [28 <./figures/cramming-data.png>] [29 <./figures/likert.png>]
-<figures/deadlock-users.png, id=541, 319.1925pt x 372.39125pt>
+ [36 <./figures/cramming-data.png>] [37 <./figures/likert.png>]
+<figures/deadlock-users.png, id=591, 319.1925pt x 372.39125pt>
 File: figures/deadlock-users.png Graphic file (type png)
 
 <use figures/deadlock-users.png>
 Package pdftex.def Info: figures/deadlock-users.png used on input line 82.
 (pdftex.def)             Requested size: 216.81pt x 252.94426pt.
- [30 <./figures/deadlock-nonusers.png> <./figures/deadlock-users.png>]
-<figures/improved-vs-score.png, id=550, 489.32813pt x 290.58563pt>
+ [38 <./figures/deadlock-nonusers.png> <./figures/deadlock-users.png>]
+<figures/improved-vs-score.png, id=600, 489.32813pt x 290.58563pt>
 File: figures/improved-vs-score.png Graphic file (type png)
 
 <use figures/improved-vs-score.png>
 Package pdftex.def Info: figures/improved-vs-score.png used on input line 92.
 (pdftex.def)             Requested size: 433.62001pt x 257.50746pt.
-) (chapters/Conclusion.tex)) [31 <./figures/improved-vs-score.png>] (uc-thesis-
-main.bbl [32] [33
+) (chapters/Conclusion.tex)) [39 <./figures/improved-vs-score.png>] (uc-thesis-
+main.bbl [40] [41
 
 ]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
+ [42]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [34]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -1041,7 +1078,7 @@ Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [35])
+ [43])
 (appendix-outline.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1061,25 +1098,25 @@ Overfull \hbox (12.79999pt too wide) in alignment at lines 48--88
  [] 
  []
 
-[36]
+[44]
 Overfull \hbox (12.79999pt too wide) in alignment at lines 88--128
  [] 
  []
 
-[37]
+[45]
 Overfull \hbox (12.79999pt too wide) in alignment at lines 128--152
  [] 
  []
 
-[38] [39])
+[46] [47] [48])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
- [40]
+ [49]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
  (uc-thesis-main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
 Package rerunfilecheck Info: File `uc-thesis-main.out' has not changed.
-(rerunfilecheck)             Checksum: 2D1C72BC8C92CE6371C5BBC9CCCE561A;2877.
+(rerunfilecheck)             Checksum: A964246585F2B63AFDA38796C5C6F940;2937.
 
 
 LaTeX Warning: There were undefined references.
@@ -1090,13 +1127,13 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16340 strings out of 493333
- 255445 string characters out of 3139192
- 452441 words of memory out of 3000000
- 19399 multiletter control sequences out of 15000+200000
+ 16368 strings out of 493333
+ 255789 string characters out of 3139192
+ 454441 words of memory out of 3000000
+ 19408 multiletter control sequences out of 15000+200000
  10680 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 136i,11n,131p,1950b,6517s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 136i,11n,131p,1950b,6523s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Pr
@@ -1107,9 +1144,9 @@ ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmtt12.pfb>
-Output written on uc-thesis-main.pdf (50 pages, 1968177 bytes).
+Output written on uc-thesis-main.pdf (59 pages, 2040213 bytes).
 PDF statistics:
- 675 PDF objects out of 1000 (max. 8388607)
- 150 named destinations out of 1000 (max. 500000)
- 443 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 733 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 500000)
+ 456 words of extra memory for PDF output out of 10000 (max. 10000000)
 
