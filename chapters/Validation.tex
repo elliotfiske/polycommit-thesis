@@ -45,7 +45,7 @@
  
  \par Next, consider the mean of all midterm scores between students that didn't answer \textit{any} questions vs. the ones that did. For all classes except CPE 471, students that didn't answer any questions in the app scored slightly higher on average than the students that didn't. The discrepancy in CPE 471 is most likely due to the smaller number of students that signed up for \textit{Polycommit}.
  
- \par Note that we define "Active Users" as any user with over 5 Commitment. We choose this cutoff as 
+ \par Note that we define "Active Users" as any user with over 5 Commitment. 
   
   \begin{table}
  \begin{tabular}[h]{ r c c c}
@@ -72,7 +72,7 @@
  Population Size & 26 & 11 & 10 \\
  
 \end{tabular}
-\caption{Average midterm scores for different samples of the population. }
+\caption{Average midterm scores for different samples of the population. Note that an "Active User" is a user with more than 5 Commitment.}
 \end{table}
 
 \subsection{Individual Questions}
@@ -110,15 +110,6 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 
 \par The mean score for \textbf{non-users} is 3.30, and the mean score for \textbf{users} is 3.31. Thus, using \textit{Polycommit} had a negligible effect on the average score of the participants. However, note that 23/26 \textbf{non-users} received a score greater than 3, while 34/37 \textbf{users} received a score greater than 3. This could reflect the fact that \textit{Polycommit} only referenced 3 out of the 4 conditions for deadlock, as the 4th condition in the problem was a false plant. Although all 4 conditions are listed in the "explanation" field for the problem, by default if a student answers the question correctly they are brought back to the course page. Thus, students who participated in \textit{Polycommit} were only drilled on 3 out of the 4 conditions for deadlock, which would explain the overall performance on the midterm.
 
-\subsection{User Self-Evaluation vs. Actual Scores}
-
-\par One interesting result comes by grouping midterm scores by the user's response to "Polycommit improved my scores on quizzes and exams" (See \textbf{\hyperref[fig:overconfidence]{Figure \ref*{fig:overconfidence}}}). Students who reported that Polycommit did \textit{not} improve their scores scored substantially higher than students who did. One explanation for this is that students who were already confident about their studying habits or had prior knowledge of Operating Systems did not feel that Polycommit had an impact on their grades, which are already high overall.
-
-\begin{figure}[h]
-	\includegraphics[width=1.0\linewidth]{figures/improved-vs-score}
-	\caption{Mean midterm score grouped by response to final survey question "Polycommit improved my scores on quizzes and exams."}
-	\label{fig:overconfidence}
-\end{figure}
 
 \section {User Feedback}
 
@@ -135,6 +126,17 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 	\label{fig:likert}
 \end{figure}
 
+\subsection{User Self-Evaluation vs. Actual Scores}
+
+\par One interesting result comes by grouping midterm scores by the user's response to "Polycommit improved my scores on quizzes and exams" (See \textbf{\hyperref[fig:overconfidence]{Figure \ref*{fig:overconfidence}}}). Students who reported that Polycommit did \textit{not} improve their scores scored substantially higher than students who did. One explanation for this is that students who were already confident about their studying habits or had prior knowledge of Operating Systems did not feel that Polycommit had an impact on their grades, which are already high overall.
+
+\begin{figure}[h]
+	\includegraphics[width=1.0\linewidth]{figures/improved-vs-score}
+	\caption{Mean midterm score grouped by response to final survey question "Polycommit improved my scores on quizzes and exams."}
+	\label{fig:overconfidence}
+\end{figure}
+
+
 \subsection{Free Response Summary}
 \par Before viewing the results, we predicted some categories that user responses might fall into. These categories are:
 
@@ -148,6 +150,8 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 
 \par The total number of responses that fell under each category are:
 
+\vspace{1.0cm}
+
  \begin{tabular}{ r c }
 	\textbf{Category} & \textbf{\# Responses} \\
 	Problems or confusions with the user interface & 26 \\
@@ -157,7 +161,9 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 	Other  & 29 \\
 \end{tabular}
 
-\par The full list of responses is available at this table:
+\vspace{2.0cm}
+
+\par The full list of responses is available below. Note that answers \textit{are} shown when a question is closed, so feedback asking for answers to be displayed is filed under "UI Issues" since the problem is essentially that the app failed to present the information in a way that users could find it.
 
 \input{chapters/UserFeedbackList}
 
