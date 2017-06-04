@@ -10,21 +10,21 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Memrise}}{13}{figure.caption.9}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Classcraft user interface. Note the student's health and mana pool, as well as the list of other students in the classroom.\relax }}{15}{figure.caption.10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The "Home" screen for Polycommit. Students can see their current progress and can click on a course to answer challenges.\relax }}{22}{figure.caption.11}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The "Home" screen for \textit {Polycommit}. Students can see their current progress and can click on a course to answer challenges.\relax }}{22}{figure.caption.11}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The "Course" screen for Polycommit. Students can see their current Points and Commitment and can see a list of challenges organized by date.\relax }}{23}{figure.caption.12}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces The "Challenge" screen for Polycommit. Students see the content of the challenge and can enter their answers. At the bottom is a link where students can give feedback on a challenge.\relax }}{24}{figure.caption.13}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces The Feedback form for questions. The id for the question is automatically filled in. The student can optionally enter their email address (off-screen) if they want to be contacted when the challenge is fixed.\relax }}{25}{figure.caption.14}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces The view of a challenge once it has been answered incorrectly. The main message assures the user that it still counts for Commitment. A full explanation of the problem is under the list of the user's attempts.\relax }}{26}{figure.caption.15}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Three examples of "toast" notifications. These provide useful state-based information, such as whether a challenge was answered correctly. They also can provide feedback if an error occurred, such as a challenge not submitting due to poor network connectivity.\relax }}{27}{figure.caption.16}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Graph of Commitment versus the student's score on the midterm for CPE 453.\relax }}{30}{figure.caption.19}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Graph of Total Questions Answered vs. the student's score on the midterm for CPE 453.\relax }}{31}{figure.caption.20}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Survey responses from users of Polycommit.\relax }}{32}{figure.caption.21}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Count of scores for students that did \textit {not} make an attempt on the Deadlock question in \textit {Polycommit}.\relax }}{34}{figure.caption.23}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Count of scores for students that \textit {did} make an attempt on the Deadlock question in \textit {Polycommit}.\relax }}{34}{figure.caption.24}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Mean midterm score grouped by response to final survey question "Polycommit improved my scores on quizzes and exams."\relax }}{35}{figure.caption.25}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Graph of Commitment versus the student's percentage score for all classes.\relax }}{30}{figure.caption.19}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Graph of Total Questions Answered vs. the student's score on the midterm.\relax }}{31}{figure.caption.20}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Count of scores for students that did \textit {not} make an attempt on the Deadlock question in \textit {Polycommit}.\relax }}{34}{figure.caption.23}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Count of scores for students that \textit {did} make an attempt on the Deadlock question in \textit {Polycommit}.\relax }}{34}{figure.caption.24}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Mean midterm score grouped by response to final survey question "Polycommit improved my scores on quizzes and exams."\relax }}{36}{figure.caption.25}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Survey responses from users of Polycommit.\relax }}{42}{figure.caption.26}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {.1}{\ignorespaces \relax }}{48}{figure.caption.29}
-\contentsline {figure}{\numberline {.2}{\ignorespaces \relax }}{49}{figure.caption.30}
-\contentsline {figure}{\numberline {.3}{\ignorespaces \relax }}{50}{figure.caption.31}
+\contentsline {figure}{\numberline {.1}{\ignorespaces \relax }}{50}{figure.caption.30}
+\contentsline {figure}{\numberline {.2}{\ignorespaces \relax }}{51}{figure.caption.31}
+\contentsline {figure}{\numberline {.3}{\ignorespaces \relax }}{52}{figure.caption.32}

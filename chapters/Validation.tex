@@ -24,37 +24,56 @@
 
 \section{Overall Results}
 \subsection{Cramming vs. Commitment}
-\par First, consider the relationship between a student's overall score on the midterm and their Commitment (\textbf{\hyperref[fig:comm_vs_score]{Figure \ref*{fig:comm_vs_score}}}).
- 
- \par 
+\par First, consider the relationship between a student's overall score on the midterm and their Commitment (\textbf{\hyperref[fig:comm_vs_score]{Figure \ref*{fig:comm_vs_score}}}). 
  
  \begin{figure}[ht]
- 	\includegraphics{figures/commitment-data1}
- 	\caption{Graph of Commitment versus the student's score on the midterm for CPE 453.}
+ 	\includegraphics[width=1.0\linewidth]{figures/commitment-data1}
+ 	\caption{Graph of Commitment versus the student's percentage score for all classes.}
  	\label{fig:comm_vs_score}
  \end{figure}
 
+\par Note that we are showing the midterm percentage score, since the midterms in different classes have different total score values.
+\par There is no clear correlation between a user's Commitment value and the score they got on the midterm. Thus, this data does not support the hypothesis that using spaced repetition to study for an exam improves the user's score.
+
+\par  Next, we can compare the total number of questions answered by each user with their midterm score (\textbf{\hyperref[fig:cramming]{Figure \ref*{fig:cramming}}}). If students received a benefit from the Commitment system, we might expect to see \textit{less} of a correlation between total questions answered and midterm score. This is because if a user has a high number of questions answered but a low Commitment, this indicates they answered the questions all at once, in a "cram" session. According to our hypothesis, this would not help improve their long-term understanding of the course.
 
 \begin{figure}[ht]
-	\includegraphics{figures/cramming-data}
-	\caption{Graph of Total Questions Answered vs. the student's score on the midterm for CPE 453.}
+	\includegraphics[width=1.0\linewidth]{figures/cramming-data}
+	\caption{Graph of Total Questions Answered vs. the student's score on the midterm.}
 	\label{fig:cramming}
 \end{figure}
  
- \par Next, consider the mean of all midterm scores between students that didn't answer \textit{any} questions vs. the ones that did. Students that didn't answer any questions in the app scored slightly higher on average than the students that didn't.
+ \par Next, consider the mean of all midterm scores between students that didn't answer \textit{any} questions vs. the ones that did. For all classes except CPE 471, students that didn't answer any questions in the app scored slightly higher on average than the students that didn't. The discrepancy in CPE 471 is most likely due to the smaller number of students that signed up for \textit{Polycommit}.
+ 
+ \par Note that we define "Active Users" as any user with over 5 Commitment. We choose this cutoff as 
   
- \begin{tabular}{ r c c }
-  & Users & Non-users \\
-%  \hline			90 m
- Midterm Average & 39.37 & 36.27 \\
- Population Size & 43 & 21
+  \begin{table}
+ \begin{tabular}[h]{ r c c c}
+  & \textbf{Non-users} & \textbf{All Users} & \textbf{Active Users} \\
+  \hline
+  \textbf{All Classes} & & & \\
+  Midterm Average & 72.93 & 76.12 & 76.88 \\
+  Population Size & 119 & 103 & 87 \\
+  \hline
+  \textbf{CPE 453} & & & \\
+ Midterm Average & 74.38 & 77.56 & 77.40 \\
+ Population Size & 14 & 46 & 42 \\
+ \hline
+ \textbf{CPE 464} & & & \\
+ Midterm Average & 68.90 & 73.85 & 76.08 \\
+ Population Size & 47 & 42 & 34 \\
+ \hline
+ \textbf{CPE 471} & & & \\
+ Midterm Average & 87.38 & 82.39 & 83.83 \\
+ Population Size & 34 & 7 & 4 \\
+ \hline
+ \textbf{MATH 244} & & & \\
+ Midterm Average & 74.43 & 85.87 & 85.87 \\
+ Population Size & 26 & 11 & 10 \\
+ 
 \end{tabular}
-
- \begin{figure}
-	\includegraphics[width=1.0\linewidth]{figures/likert}
-	\caption{Survey responses from users of Polycommit.}
-	\label{fig:likert}
-\end{figure}
+\caption{Average midterm scores for different samples of the population. }
+\end{table}
 
 \subsection{Individual Questions}
 Certain questions on the midterm matched closely with the content of the questions that were repeated on \textit{Polycommit}. We can analyze midterm results to see if the students that drilled related problems in \textit{Polycommit} performed better on the related questions during the midterm.
@@ -91,7 +110,9 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 
 \par The mean score for \textbf{non-users} is 3.30, and the mean score for \textbf{users} is 3.31. Thus, using \textit{Polycommit} had a negligible effect on the average score of the participants. However, note that 23/26 \textbf{non-users} received a score greater than 3, while 34/37 \textbf{users} received a score greater than 3. This could reflect the fact that \textit{Polycommit} only referenced 3 out of the 4 conditions for deadlock, as the 4th condition in the problem was a false plant. Although all 4 conditions are listed in the "explanation" field for the problem, by default if a student answers the question correctly they are brought back to the course page. Thus, students who participated in \textit{Polycommit} were only drilled on 3 out of the 4 conditions for deadlock, which would explain the overall performance on the midterm.
 
-\par One interesting result comes by grouping midterm scores by the user's response to "Polycommit improved my scores on quizzes and exams" (See \textbf{\hyperref[fig:overconfidence]{Figure \ref*{fig:overconfidence}}}). Students who reported that Polycommit did \textit{not} improve their scores scored substantially higher than students who did. One explanation for this is that students who were already confident about their studying habits or had prior experience with 
+\subsection{User Self-Evaluation vs. Actual Scores}
+
+\par One interesting result comes by grouping midterm scores by the user's response to "Polycommit improved my scores on quizzes and exams" (See \textbf{\hyperref[fig:overconfidence]{Figure \ref*{fig:overconfidence}}}). Students who reported that Polycommit did \textit{not} improve their scores scored substantially higher than students who did. One explanation for this is that students who were already confident about their studying habits or had prior knowledge of Operating Systems did not feel that Polycommit had an impact on their grades, which are already high overall.
 
 \begin{figure}[h]
 	\includegraphics[width=1.0\linewidth]{figures/improved-vs-score}
@@ -99,10 +120,23 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 	\label{fig:overconfidence}
 \end{figure}
 
-\section {Coded User Feedback}
+\section {User Feedback}
+
+\par At the end of the experiment, we contacted all of the participants with a final survey that asked them questions about their usage of the app. It also included two free-response questions that asked users to offer suggestions about how the app could be improved.
+
+\subsection{Rating Summary}
+
+\par The full survey is viewable in \textbf{\hyperref[fig:survey1]{Figure \ref*{fig:survey1}}}. Users responded to several statements about the app using a standard Likert scale ranging from Strongly Disagree to Strongly Agree. A summary of the user responses is available at \textbf{\hyperref[fig:likert]{Figure \ref*{fig:likert}}}
 
 
-At the end of the experiment, we contacted all of the participants with a final survey that asked them questions about their usage of the app. It also included two free-response questions about 
+\begin{figure}[h]
+	\includegraphics[width=1.0\linewidth]{figures/likert}
+	\caption{Survey responses from users of Polycommit.}
+	\label{fig:likert}
+\end{figure}
+
+\subsection{Free Response Summary}
+\par Before viewing the results, we predicted some categories that user responses might fall into. These categories are:
 
 \begin{enumerate}
 	\item Problems or confusions with the user interface
@@ -112,7 +146,23 @@ At the end of the experiment, we contacted all of the participants with a final 
 	\item Other
 \end{enumerate}
 
+\par The total number of responses that fell under each category are:
+
+ \begin{tabular}{ r c }
+	\textbf{Category} & \textbf{\# Responses} \\
+	Problems or confusions with the user interface & 26 \\
+	Questions were not correct or were confusing  & 9 \\
+	Questions did not represent test material  & 5 \\
+	App needed more gamification, excitement, or incentive to use  & 1 \\
+	Other  & 29 \\
+\end{tabular}
+
+\par The full list of responses is available at this table:
+
 \input{chapters/UserFeedbackList}
+
+
+
 
 
 % TODO: Put statistics for the rest of the classes here. 

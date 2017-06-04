@@ -2,7 +2,7 @@
 
 \par We carried out an experiment at California Polytechnic State University to test the efficacy of habit-based educational software. We created a web-based application called \textit{Polycommit} that was connected to 4 college classes: \textbf{Introduction to Computer Networks}, \textbf{Introduction to Computer Graphics}, \textbf{Introduction to Computer Networks}, \textbf{Introduction to Operating Systems}, and \textbf{Linear Analysis I}. These classes were selected because they covered subject matter that was easy to convert to online quizzes. For instance, one staple Linear Analysis problem is to find the determinant of a matrix (often a whole number), which is easy to input into an online form. In addition, I had taken these classes in recent quarters and was familiar with the course content. 
 
-\par We presented Polycommit to each of the courses in the first 2 weeks of class. Students voluntarily signed up through a website hosted at https://polycommit.com/, where they were able to log in with one click through the main Cal Poly portal. This lets students easily access the website, while also guaranteeing that only Cal Poly students can sign up for the program.
+\par We presented \textit{Polycommit} to each of the courses in the first 2 weeks of class. Students voluntarily signed up through a website hosted at https://polycommit.com/.
 
 \section{UI Overview}
 
@@ -15,14 +15,14 @@
 
 \begin{figure*}[h]
 	\includegraphics{figures/polycommit-screen}
-	\caption{The "Home" screen for Polycommit. Students can see their current progress and can click on a course to answer challenges.}
+	\caption{The "Home" screen for \textit{Polycommit}. Students can see their current progress and can click on a course to answer challenges.}
 	\label{fig:polycommit1}
 \end{figure*}
 
 \subsection{Course Screen}
-\par Each course page has a list of challenges (\textbf{\hyperref[fig:polycommit2]{Figure \ref*{fig:polycommit2}}}) that are open to the student. Challenges are organized into \textbf{Weeks}. If a student has completed all the challenges in a week, the week is displayed with a green check mark and does not expand. If there are open challenges in a week, the week is displayed in yellow with an "alert" icon, indicating that the student has an available challenge. This UI imparts a sense of urgency to the user, since they could potentially lose opportunities to earn Commitment by not answering a question in a . Each challenge also lists the date it was opened, and the number of points awarded if the challenge is already completed.
+\par Each course page has a list of challenges (\textbf{\hyperref[fig:polycommit2]{Figure \ref*{fig:polycommit2}}}) that are open to the student. Challenges are grouped by the week in which they are opened. If a student has completed all the challenges in a week, the week is displayed with a green check mark and does not expand. If there are open challenges in a week, the week is displayed in yellow with an "alert" icon, indicating that the student has an available challenge. This UI imparts a sense of urgency to the user, since they could potentially lose opportunities to earn Commitment by not answering a question in a 24-hour period. Each challenge also lists the date it was opened, and the number of points awarded if the challenge is already completed.
 
-\par Finally, the Course page lists the student's points and Commitment for the course, along with a tooltip that explains what "Commitment" is. This information is repeated from the Home page, since it is the most relevant information for the user, and it is inherently satisfying to watch your points and Commitment rise as you complete challenges.
+\par Finally, the Course page lists the student's points and Commitment for the course, along with a tooltip that explains what "Commitment" is. The Commitment and Point values are repeated from the Home page since they are central to the experience of the app, and it is inherently satisfying to watch your points and Commitment rise as you complete challenges.
 
 \begin{figure*}
 	\includegraphics{figures/polycommit-challenges}
@@ -78,7 +78,6 @@
 \par All of the backend server code is thoroughly covered by various test cases. I used the service \textit{Postman} to maintain a suite of tests that ensured all the data involved in \textit{Polycommit} was both available and secure. \textit{Postman} allows developers to run a series of web requests against a server, and verify that the correct response or error code is returned (See  \textbf{\hyperref[fig:polycommit5]{Figure \ref*{fig:postman}}}). For instance, one test suite logs in as a student and attempts to complete a challenge, create a class, and query the information of another student. Only the first request should complete successfully; the student's unprivileged account should not be able to create classes or see other students' data.
 
 \par Writing test cases for new server functionality \textit{before} beginning development allowed me to see edge cases before they arose, and allowed for the satisfaction of seeing the tests pass as I completed each feature. In addition, it protected the privacy of students' answers and scores.
-
 
 
 
