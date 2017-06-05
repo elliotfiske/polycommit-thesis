@@ -110,6 +110,65 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 
 \par The mean score for \textbf{non-users} is 3.30, and the mean score for \textbf{users} is 3.31. Thus, using \textit{Polycommit} had a negligible effect on the average score of the participants. However, note that 23/26 \textbf{non-users} received a score greater than 3, while 34/37 \textbf{users} received a score greater than 3. This could reflect the fact that \textit{Polycommit} only referenced 3 out of the 4 conditions for deadlock, as the 4th condition in the problem was a false plant. Although all 4 conditions are listed in the "explanation" field for the problem, by default if a student answers the question correctly they are brought back to the course page. Thus, students who participated in \textit{Polycommit} were only drilled on 3 out of the 4 conditions for deadlock, which would explain the overall performance on the midterm.
 
+\par Next, we will examine problems related to scheduling. Scheduling, in Operating Systems, is the process by which a multithreaded CPU decides which processes get to run at a certain time. Since scheduling problems are easy to generate and automatically grade, several such problems were included in \textit{Polycommit}. Below, we graph the amount of scheduling problems users answered in \textit{Polycommit} versus the score they got on the scheduling section of the midterm.
+
+% TODO: also include graph where people got the polycommit question incorrect
+
+\begin{figure}[h!b]
+	\includegraphics[width=1.0\linewidth]{figures/scheduling}
+	\caption{Scatter plot where the X axis is the amount of scheduling problems the user answered on \textit{Polycommit}, and the Y axis is the total score they received on the 4 scheduling questions of the midterm.}
+	\label{fig:scheduling}
+\end{figure}
+
+\par As you can see, there is a clear correlation between consistently practicing scheduling questions and performing well on the exam. While many students did get full credit on the scheduling portion of the exam, the students who answered all 5 scheduling questions on Polycommit all scored perfectly on that section of the exam.
+
+%TODO do the "see figure x" thing
+
+\subsubsection{Introduction to Computer Graphics}
+
+\par Questions about \textbf{vector math}, \textbf{transformation matrices}, and \textbf{barycentric coordinates} were practiced in \textit{Polycommit}, and were subsequently tested on the midterm for Computer Graphics. Below is a table displaying the midterm performance of students who answered questions about each question on \textit{Polycommit}.
+
+\begin{table}
+	\begin{tabular}[h!]{ r c c }
+		& \textbf{Did practice} & \textbf{Did not practice} \\
+		\hline
+		\textbf{Vector Math} & & \\
+		Score & 98\% & 100\%  \\
+		
+		\hline
+		\textbf{Transformation Matrices} & &  \\
+		Score  & 92.1\% & 86.3\% \\
+		
+		\hline
+		\textbf{Barycentric Coordinates} & &  \\
+		Score  & 100\% & 97.7\% \\
+		
+		\caption{IMPORTANT: These midterm scores were self-reported, so their accuracy depends on the honesty of the reporting student.}
+	\end{tabular}
+\end{table}
+
+\subsubsection{Introduction to Computer Networks}
+
+\par Questions about \textbf{IP Addressing}, \textbf{CRC Checksums} and \textbf{sliding window protocol} were practiced in \textit{Polycommit}, and were subsequently tested on the midterm for Computer Networks. Below is a table displaying the midterm performance of students who answered questions about each question on \textit{Polycommit}.
+
+\begin{table}
+	\begin{tabular}[h!]{ r c c }
+		& \textbf{Did practice} & \textbf{Did not practice} \\
+		\hline
+		\textbf{IP Addressing} & & \\
+		Score & 80\% & 77.4\%  \\
+		
+		\hline
+		\textbf{CRC Checksums} & &  \\
+		Score  & 100\% & 86.3\% \\
+		
+		\hline
+		\textbf{Sliding Window Protcol} & &  \\
+		Score  & 90\% & 76.9\% \\
+		
+		\caption{IMPORTANT: These midterm scores were self-reported, so their accuracy depends on the honesty of the reporting student.}
+	\end{tabular}
+\end{table}
 
 \section {User Feedback}
 
@@ -117,7 +176,7 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 
 \subsection{Rating Summary}
 
-\par The full survey is viewable in \textbf{\hyperref[fig:survey1]{Figure \ref*{fig:survey1}}}. Users responded to several statements about the app using a standard Likert scale ranging from Strongly Disagree to Strongly Agree. A summary of the user responses is available at \textbf{\hyperref[fig:likert]{Figure \ref*{fig:likert}}}
+\par The full survey is viewable in \textbf{\hyperref[fig:survey1]{Figure \ref*{fig:survey1}}}. Users responded to several statements about the app using a standard Likert scale ranging from Strongly Disagree to Strongly Agree. A summary of the user responses is available at \textbf{\hyperref[fig:likert]{Figure \ref*{fig:likert}}}. Notably, a majority of users responded quite positively to the app.
 
 
 \begin{figure}[h]
@@ -128,11 +187,11 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 
 \subsection{User Self-Evaluation vs. Actual Scores}
 
-\par One interesting result comes by grouping midterm scores by the user's response to "Polycommit improved my scores on quizzes and exams" (See \textbf{\hyperref[fig:overconfidence]{Figure \ref*{fig:overconfidence}}}). Students who reported that Polycommit did \textit{not} improve their scores scored substantially higher than students who did. One explanation for this is that students who were already confident about their studying habits or had prior knowledge of Operating Systems did not feel that Polycommit had an impact on their grades, which are already high overall.
+\par One interesting result comes by grouping midterm scores by the user's response to "\textit{Polycommit} improved my scores on quizzes and exams" (See \textbf{\hyperref[fig:overconfidence]{Figure \ref*{fig:overconfidence}}}). Students who reported that \textit{Polycommit} did \textit{not} improve their scores scored substantially higher than students who did. One explanation for this is that students who were already confident about their studying habits or had prior knowledge of Operating Systems did not feel that \textit{Polycommit} had an impact on their grades, which are already high overall.
 
 \begin{figure}[h]
 	\includegraphics[width=1.0\linewidth]{figures/improved-vs-score}
-	\caption{Mean midterm score grouped by response to final survey question "Polycommit improved my scores on quizzes and exams."}
+	\caption{Mean midterm score grouped by response to final survey question "\textit{Polycommit} improved my scores on quizzes and exams."}
 	\label{fig:overconfidence}
 \end{figure}
 
@@ -152,7 +211,7 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 
 \vspace{1.0cm}
 
- \begin{tabular}{ r c }
+\begin{tabular}{ r c }
 	\textbf{Category} & \textbf{\# Responses} \\
 	Problems or confusions with the user interface & 26 \\
 	Questions were not correct or were confusing  & 9 \\
@@ -169,9 +228,4 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 
 
 
-
-
-% TODO: Put statistics for the rest of the classes here. 
-
-% Then, bring in statistics from the final survey where respondents said that they enjoyed using the app, and thought it improved their scores on quizzes and exams.
  
