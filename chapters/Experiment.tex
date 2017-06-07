@@ -1,6 +1,6 @@
 \chapter{Experiment}
 
-\par We carried out an experiment at California Polytechnic State University to test the efficacy of habit-based educational software. We created a web-based application called \textit{Polycommit} that was connected to 4 college classes: \textbf{Introduction to Computer Networks}, \textbf{Introduction to Computer Graphics}, \textbf{Introduction to Computer Networks}, \textbf{Introduction to Operating Systems}, and \textbf{Linear Analysis I}. These classes were selected because they covered subject matter that was easy to convert to online quizzes. For instance, one staple Linear Analysis problem is to find the determinant of a matrix (often a whole number), which is easy to input into an online form. In addition, I had taken these classes in recent quarters and was familiar with the course content. 
+\par We carried out an experiment at California Polytechnic State University to test the efficacy of habit-based educational software. We created a web-based application called \textit{Polycommit} that was connected to 4 college classes: \textbf{Introduction to Computer Networks}, \textbf{Introduction to Computer Graphics}, \textbf{Introduction to Computer Networks}, \textbf{Introduction to Operating Systems}, and \textbf{Linear Analysis I}. These classes were selected because they covered subject matter that was easy to convert to online quizzes. For instance, one staple Linear Analysis problem is to find the determinant of a matrix (often a whole number), which is easy to input into an online form. In addition, I had taken these classes in recent quarters and was familiar with the course content.
 
 \par We presented \textit{Polycommit} to each of the courses in the first 2 weeks of class. Students voluntarily signed up through a website hosted at https://polycommit.com/.
 
@@ -67,7 +67,7 @@
 \end{figure*}
 
 \section{Technology Used}
-\par All the code for \textit{Polycommit} is available here: 
+\par All the code for \textit{Polycommit} is available here:
 \hyperref[https://github.com/elliotfiske/commitment]{https://github.com/elliotfiske/commitment}
 
 \par \textit{Polycommit} has its origins in a Summer 2016 section of Dynamic Web Development (CPE 437), taught by Dr. Clint Staley. The base code and overall code architecture remain, as well as some of the platforms used. The app runs on a M*EAN stack. It uses Node.js as a backend, with Express as a routing service and MySQL as a database. In addition, Sequelize is used to easily interface with the database from Javascript. Angular.js is used as a frontend framework, supplemented by Bootstrap for reactive layout.
@@ -82,7 +82,16 @@
 
 
 \section{User Feedback}
+\par At the bottom of every page is a link encouraging users to send feedback to my email address (See \textbf{\hyperref[fig:feedbacklink]{Figure \ref*{fig:feedbacklink}}}). Throughout the experiment, I received a large amount of excellent feedback that helped me refine the app's usability.
 
-%Throughout the duration of the experiment, I received a large amount of excellent feedback about the usability of \textit{Polycommit}. At the bottom of each page is a link 
+\subsection{Early Testing}
+\par Before the main experiment in Spring 2017, we ran a small dry run of the app to get a general feel for usability issues. The app was announced in CPE 464 in week 6, directly after the midterm. The main difference from the current iteration is the onboarding process. Instead of registering and logging in through the Cal Poly portal, students registered using an email address and had to click a link that was emailed to them to complete registration.
+
+\par We discovered that this onboarding process had an extremely high drop-off rate. Of the 10 people that visited the posted link, only 4 entered their email, and only 2 successfully completed registration. As such, it became a huge priority to reduce the number of steps a user had to complete to begin using the app. Other studies could learn from this process and implement a one-click login process that ensures maximum user participation.
+
+\subsection{Ongoing Feedback}
+\par Throughout the experiment, I received feedback from 16 different users consisting of bug reports and feature requests. A full list of the feedback I received is available in <Appendix A>
+
+%Throughout the duration of the experiment, I received a large amount of excellent feedback about the usability of \textit{Polycommit}. At the bottom of each page is a link
 %%TODO
 %TODO: Finish section on how I used user feedback to improve the app. Include emails from Polycommit folder.
