@@ -9,17 +9,15 @@ Cal {P}oly {G}ithub.
 \newblock \url{https://pocketpoints.com/}, 2014.
 \newblock [Online; accessed May 31, 2017].
 
+\bibitem{benjamin1988history}
+L.~T. Benjamin.
+\newblock A history of teaching machines.
+\newblock {\em American psychologist}, 43(9):703, 1988.
+
 \bibitem{bruckman1999can}
 A.~Bruckman.
 \newblock Can educational be fun.
 \newblock In {\em Game developers conference}, volume~99, pages 75--79, 1999.
-
-\bibitem{Deterding:2011:GDE:2181037.2181040}
-S.~Deterding, D.~Dixon, R.~Khaled, and L.~Nacke.
-\newblock From game design elements to gamefulness: Defining "gamification".
-\newblock In {\em Proceedings of the 15th International Academic MindTrek
-  Conference: Envisioning Future Media Environments}, MindTrek '11, pages
-  9--15, New York, NY, USA, 2011. ACM.
 
 \bibitem{dodin2001integrated}
 B.~Dodin and A.~Elimam.
@@ -45,11 +43,6 @@ S.~T. Fiske and S.~H. Kang.
   implications for instruction.
 \newblock {\em Policy Insights from the Behavioral and Brain Sciences},
   3(1):12--19, 2016.
-
-\bibitem{hardy_heyes_1999}
-M.~Hardy and S.~Heyes.
-\newblock {\em Beginning psychology}.
-\newblock Oxford Univ. Press, 1999.
 
 \bibitem{huang2013gamification}
 W.~H.-Y. Huang and D.~Soman.

@@ -7,7 +7,7 @@
 \section{UI Overview}
 
 \subsection{Home Scren}
-\par Upon logging in, students click "Enroll" for the classes they wish to participate in. Upon enrolling, the classes are listed under the "Enrolled Classes" section (\textbf{\hyperref[fig:polycommit1]{Figure \ref*{fig:polycommit1}}}). This page also lists the two main "scores" that students earn by answering questions: \textbf{Commitment} and \textbf{Points}.
+\par Upon logging in, students click ``Enroll'' for the classes they wish to participate in. Upon enrolling, the classes are listed under the ``Enrolled Classes'' section (\textbf{\hyperref[fig:polycommit1]{Figure \ref*{fig:polycommit1}}}). This page also lists the two main ``scores'' that students earn by answering questions: \textbf{Commitment} and \textbf{Points}.
 
 \par Commitment is a numerical value that represents how many \textit{unique} days a student has answered a question on the website. Students could earn up to 1\% extra credit on their final grade in the class by getting 15 Commitment.
 
@@ -15,18 +15,18 @@
 
 \begin{figure*}[h]
 	\includegraphics{figures/polycommit-screen}
-	\caption{The "Home" screen for \textit{Polycommit}. Students can see their current progress and can click on a course to answer challenges.}
+	\caption{The ``Home'' screen for \textit{Polycommit}. Students can see their current progress and can click on a course to answer challenges.}
 	\label{fig:polycommit1}
 \end{figure*}
 
 \subsection{Course Screen}
-\par Each course page has a list of challenges (\textbf{\hyperref[fig:polycommit2]{Figure \ref*{fig:polycommit2}}}) that are open to the student. Challenges are grouped by the week in which they are opened. If a student has completed all the challenges in a week, the week is displayed with a green check mark and does not expand. If there are open challenges in a week, the week is displayed in yellow with an "alert" icon, indicating that the student has an available challenge. This UI imparts a sense of urgency to the user, since they could potentially lose opportunities to earn Commitment by not answering a question in a 24-hour period. Each challenge also lists the date it was opened, and the number of points awarded if the challenge is already completed.
+\par Each course page has a list of challenges (\textbf{\hyperref[fig:polycommit2]{Figure \ref*{fig:polycommit2}}}) that are open to the student. Challenges are grouped by the week in which they are opened. If a student has completed all the challenges in a week, the week is displayed with a green check mark and does not expand. If there are open challenges in a week, the week is displayed in yellow with an ``alert'' icon, indicating that the student has an available challenge. This UI imparts a sense of urgency to the user, since they could potentially lose opportunities to earn Commitment by not answering a question in a 24-hour period. Each challenge also lists the date it was opened, and the number of points awarded if the challenge is already completed.
 
-\par Finally, the Course page lists the student's points and Commitment for the course, along with a tooltip that explains what "Commitment" is. The Commitment and Point values are repeated from the Home page since they are central to the experience of the app, and it is inherently satisfying to watch your points and Commitment rise as you complete challenges.
+\par Finally, the Course page lists the student's points and Commitment for the course, along with a tooltip that explains what ``Commitment'' is. The Commitment and Point values are repeated from the Home page since they are central to the experience of the app, and it is inherently satisfying to watch your points and Commitment rise as you complete challenges.
 
 \begin{figure*}
 	\includegraphics{figures/polycommit-challenges}
-	\caption{The "Course" screen for Polycommit. Students can see their current Points and Commitment and can see a list of challenges organized by date.}
+	\caption{The ``Course'' screen for Polycommit. Students can see their current Points and Commitment and can see a list of challenges organized by date.}
 	\label{fig:polycommit2}
 \end{figure*}
 
@@ -35,11 +35,11 @@
 
 \par At the bottom of the Challenge screen is a link to submit feedback about a question. Through this link, students are brought to a Google form where they can provide feedback about a particular question. The feedback form is viewable at \textbf{\hyperref[fig:polycommit4]{Figure \ref*{fig:polycommit4}}}.
 
-\par Once the challenge is closed, students can see a list of their previous attempts along with the correct answer to the problem. Certain problems have their answers hidden; for instance, all Linear Analysis problems don't show their answers because many challenges on \textit{Polycommit} are directly from the assigned homework. Hiding the correct answer prevents students from quickly inputting a wrong answer to see the homework solutions. Additionally, if a question has received feedback as being confusing, an "Explanation" field provides detailed context about the answer the problem and potential pitfalls (See  \textbf{\hyperref[fig:polycommit5]{Figure \ref*{fig:polycommit5}}}).
+\par Once the challenge is closed, students can see a list of their previous attempts along with the correct answer to the problem. Certain problems have their answers hidden; for instance, all Linear Analysis problems don't show their answers because many challenges on \textit{Polycommit} are directly from the assigned homework. Hiding the correct answer prevents students from quickly inputting a wrong answer to see the homework solutions. Additionally, if a question has received feedback as being confusing, an ``Explanation'' field provides detailed context about the answer the problem and potential pitfalls (See  \textbf{\hyperref[fig:polycommit5]{Figure \ref*{fig:polycommit5}}}).
 
 \begin{figure*}
 	\includegraphics{figures/pc-question}
-	\caption{The "Challenge" screen for Polycommit. Students see the content of the challenge and can enter their answers. At the bottom is a link where students can give feedback on a challenge.}
+	\caption{The ``Challenge'' screen for Polycommit. Students see the content of the challenge and can enter their answers. At the bottom is a link where students can give feedback on a challenge.}
 	\label{fig:polycommit3}
 \end{figure*}
 
@@ -57,12 +57,12 @@
 \end{figure*}
 
 \subsection{Toasts}
-\par \textit{Polycommit} uses "toasts" to convey temporary, state-based information to the user. For instance, when the user answers a question, they get immediate feedback in the form of a pop-up toast. Positive information, such as a correct answer, is styled with a green background and a check mark. Negative information, such as an incorrect answer or a server error, is bright red with an alert symbol that commands the user's attention. Examples of each are at \textbf{\hyperref[fig:polycommit6]{Figure \ref*{fig:polycommit6}}}.
+\par \textit{Polycommit} uses ``toasts'' to convey temporary, state-based information to the user. For instance, when the user answers a question, they get immediate feedback in the form of a pop-up toast. Positive information, such as a correct answer, is styled with a green background and a check mark. Negative information, such as an incorrect answer or a server error, is bright red with an alert symbol that commands the user's attention. Examples of each are at \textbf{\hyperref[fig:polycommit6]{Figure \ref*{fig:polycommit6}}}.
 
 
 \begin{figure*}
 	\includegraphics{figures/pc-toast}
-	\caption{Three examples of "toast" notifications. These provide useful state-based information, such as whether a challenge was answered correctly. They also can provide feedback if an error occurred, such as a challenge not submitting due to poor network connectivity.}
+	\caption{Three examples of ``toast'' notifications. These provide useful state-based information, such as whether a challenge was answered correctly. They also can provide feedback if an error occurred, such as a challenge not submitting due to poor network connectivity.}
 	\label{fig:polycommit6}
 \end{figure*}
 
