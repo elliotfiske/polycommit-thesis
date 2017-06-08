@@ -1,4 +1,4 @@
-\chapter{Validation}
+\chapter{User Study}
 
 \par The experiment was carried out over the first half of the Spring 2017 quarter at Cal Poly. 130 students signed up across 4 classes. By the end of the experiment, just over 3200 answers had been submitted to the application.
 
@@ -7,7 +7,7 @@
 \subsection{Midterm Scores}
 \par In order to gauge the effectiveness of \textit{Polycommit}, we collected scores on quizzes and exams and aggregated the data to be analyzed. For \textbf{Introduction to Operating Systems}, data collection was extremely simple as all the quizzes and midterms were administered through an online exam. This allowed us to easily obtain data on how students performed on specific midterm questions that aligned with questions asked in \textit{Polycommit}.
 
-\par However, the other classes were not as simple. The other classes administered paper midterms, and we did not have access to the papers as they were being graded. As such, we administered a secondary survey to all the students in the class asking them to input their midterm scores for various questions.
+\par However, the other classes were not as simple. The other classes administered paper midterms, and we did not have access to the papers as they were being graded. As such, we administered a secondary survey to   the students in the class asking them to input their midterm scores for various questions.
 
 \subsection{Final Survey}
 \par After the experiment was concluded, all participants were sent a link to a survey where they could give feedback about their overall experience using \textit{Polycommit}. As an incentive, any participant who filled out the survey received +3 Commitment and +50 points (equal to an additional entry in the gift card raffle). A total of 70 participants filled out the post-experiment survey.
@@ -45,11 +45,13 @@
  
  \par Next, consider the mean of all midterm scores between students that didn't answer \textit{any} questions vs. the ones that did. For all classes except CPE 471, students that didn't answer any questions in the app scored slightly higher on average than the students that didn't. The discrepancy in CPE 471 is most likely due to the smaller number of students that signed up for \textit{Polycommit}.
  
- \par Note that we define ``Active Users'' as any user with over 5 Commitment. 
+ \par Note that we define ``Active Polycommit Users'' as the sample of users with over 5 commitment. 
   
+  
+  \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
   \begin{table}
- \begin{tabular}[h]{ r c c c}
-  & \textbf{Non-users} & \textbf{All Users} & \textbf{Active Users} \\
+ \begin{tabular}[h]{ r C{3cm} C{3cm} C{3cm}}
+  & \textbf{Non-users} & \textbf{Polycommit \newline Users} & \textbf{Active \newline Polycommit \newline Users} \\
   \hline
   \textbf{All Classes} & & & \\
   Midterm Average & 72.93 & 76.12 & 76.88 \\
