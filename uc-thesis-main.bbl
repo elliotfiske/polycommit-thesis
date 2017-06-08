@@ -19,6 +19,13 @@ A.~Bruckman.
 \newblock Can educational be fun.
 \newblock In {\em Game developers conference}, volume~99, pages 75--79, 1999.
 
+\bibitem{Deterding:2011:GDE:2181037.2181040}
+S.~Deterding, D.~Dixon, R.~Khaled, and L.~Nacke.
+\newblock From game design elements to gamefulness: Defining "gamification".
+\newblock In {\em Proceedings of the 15th International Academic MindTrek
+  Conference: Envisioning Future Media Environments}, MindTrek '11, pages
+  9--15, New York, NY, USA, 2011. ACM.
+
 \bibitem{dodin2001integrated}
 B.~Dodin and A.~Elimam.
 \newblock Integrated project scheduling and material planning with variable
@@ -44,7 +51,7 @@ S.~T. Fiske and S.~H. Kang.
 \newblock {\em Policy Insights from the Behavioral and Brain Sciences},
   3(1):12--19, 2016.
 
-\bibitem{fogg2002persuasive}
+\bibitem{2002persuasive}
 B.~J. Fogg.
 \newblock Persuasive technology: using computers to change what we think and
   do.
@@ -55,6 +62,12 @@ B.~J. Fogg.
 \newblock A behavior model for persuasive design.
 \newblock In {\em Proceedings of the 4th international Conference on Persuasive
   Technology}, page~40. ACM, 2009.
+
+\bibitem{frith2013turning}
+J.~Frith.
+\newblock Turning life into a game: Foursquare, gamification, and personal
+  mobility.
+\newblock {\em Mobile Media \& Communication}, 1(2):248--262, 2013.
 
 \bibitem{huang2013gamification}
 W.~H.-Y. Huang and D.~Soman.
