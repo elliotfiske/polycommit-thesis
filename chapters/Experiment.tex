@@ -125,26 +125,38 @@
 
 \par Node.js and Javascript lends itself well to quick, iterative development. As a dynamically typed language with first-class and anonymous functions, it is easy to quickly make sweeping changes based on user feedback. However, since Javascript is an interpreted language, potential errors that a compiler could have caught may make it through to the live site. Because of this, it was extremely important to regularly run the backend code through comprehensive unit tests.
 
-\subsection{HTTPS}
-\par In order to %TODO: Talk about how HTTPS builds user trust and encourages them to enter their credentials.
+%\subsection{HTTPS}
+%\par In order to %TODO: Talk about how HTTPS builds user trust and encourages them to enter their credentials.
 
 \subsection{Test-First Methodology}
-\par All of the backend server code is thoroughly covered by various test cases. I used the service \textit{Postman} to maintain a suite of tests that ensured all the data involved in \textit{Polycommit} was both available and secure. \textit{Postman} allows developers to run a series of web requests against a server, and verify that the correct response or error code is returned (See  \textbf{\hyperref[fig:polycommit5]{Figure \ref*{fig:postman}}}). For instance, one test suite logs in as a student and attempts to complete a challenge, create a class, and query the information of another student. Only the first request should complete successfully; the student's unprivileged account should not be able to create classes or see other students' data.
+\par All of the backend server code is thoroughly covered by various test cases. We used the service \textit{Postman} to maintain a suite of tests that ensured all the data involved in \textit{Polycommit} was both available and secure. \textit{Postman} allows developers to run a series of web requests against a server, and verify that the correct response or error code is returned (See  \textbf{\hyperref[fig:postman]{Figure \ref*{fig:postman}}}). For instance, one test suite logs in as a student and attempts to complete a challenge, create a class, and query the information of another student. Only the first request should complete successfully; the student's unprivileged account should not be able to create classes or see other students' data.
+
+\begin{figure*}
+	\includegraphics[width=1.1\linewidth]{figures/postman}
+	\caption{The Postman interface. A series of web requests are sent to the website, and a series of conditions determine whether the tests pass or fail.}
+	\label{fig:postman}
+\end{figure*}
 
 \par Writing test cases for new server functionality \textit{before} beginning development allowed me to see edge cases before they arose, and allowed for the satisfaction of seeing the tests pass as I completed each feature. In addition, it protected the privacy of students' answers and scores.
 
 
 
 \section{User Feedback}
-\par At the bottom of every page is a link encouraging users to send feedback to my email address (See \textbf{\hyperref[fig:feedbacklink]{Figure \ref*{fig:feedbacklink}}}). Throughout the experiment, I received a large amount of excellent feedback that helped me refine the app's usability.
+\par At the bottom of every page is a link encouraging users to send feedback to an email address (See \textbf{\hyperref[fig:feedbacklink]{Figure \ref*{fig:feedbacklink}}}). Throughout the experiment, we received a large amount of excellent feedback that helped me refine the app's usability.
+
+\begin{figure*}
+	\includegraphics[width=1.1\linewidth]{figures/feedbacklink}
+	\caption{The feedback link where students are encouraged to send feedback about \textit{Polycommit}.}
+	\label{fig:feedbacklink}
+\end{figure*}
 
 \subsection{Early Testing}
-\par Before the main experiment in Spring 2017, we ran a small dry run of the app to get a general feel for usability issues. The app was announced in CPE 464 in week 6, directly after the midterm. The main difference from the current iteration is the onboarding process. Instead of registering and logging in through the Cal Poly portal, students registered using an email address and had to click a link that was emailed to them to complete registration.
+\par Before the main experiment in Spring 2017 term, we ran a small dry run of the app to get a general feel for usability issues. The app was announced in CPE 464 in week 6, directly after the midterm. The main difference from the final iteration is the onboarding process. Instead of registering and logging in through the Cal Poly portal, students registered using an email address and had to click a link that was emailed to them to complete registration.
 
-\par We discovered that this onboarding process had an extremely high drop-off rate. Of the 10 people that visited the posted link, only 4 entered their email, and only 2 successfully completed registration. As such, it became a huge priority to reduce the number of steps a user had to complete to begin using the app. Other studies could learn from this process and implement a one-click login process that ensures maximum user participation.
+\par We discovered that this onboarding process had an extremely high drop-off rate. Of the 10 people that visited the posted link, only 4 entered their email, and only 2 successfully completed registration. As such, it became a huge priority to reduce the number of steps a user had to complete to begin using the app. The Cal Poly authentication process described in \ref{calpolylogin} decreased the number of steps the user needed to take to enter the app, and thus gave a huge boost to user engagement.
 
 \subsection{Ongoing Feedback}
-\par Throughout the experiment, I received feedback from 16 different users consisting of bug reports and feature requests. A full list of the feedback I received is available in \textbf{\hyperref[appendix:emails]{Appendix \ref*{appendix:emails}}}
+\par Throughout the experiment, We received feedback from 16 different users consisting of bug reports and feature requests. A full list of the feedback we received is available in \textbf{\hyperref[appendix:emails]{Appendix \ref*{appendix:emails}}}
 
 %Throughout the duration of the experiment, I received a large amount of excellent feedback about the usability of \textit{Polycommit}. At the bottom of each page is a link
 %%TODO

@@ -12,10 +12,10 @@
 \contentsline {subsection}{\numberline {2.1.1}Pressey's Teaching Machines}{5}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Skinner's Teaching Machines}{5}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Behavior and Learning}{6}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Variable Ratio Reinforcement Scheduling}{7}{subsection.2.1.4}
+\contentsline {subsubsection}{Rewards Scheduling}{7}{subsubsection*.8}
 \contentsline {section}{\numberline {2.2}Habit Formation}{7}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}New Psychological Theories}{8}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Duolingo}{8}{section.2.3}
+\contentsline {section}{\numberline {2.3}Duolingo}{9}{section.2.3}
 \contentsline {chapter}{\numberline {3}Related Work}{12}{chapter.3}
 \contentsline {section}{\numberline {3.1}Spaced Repetition Apps}{12}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Duolingo}{12}{subsection.3.1.1}
@@ -39,43 +39,41 @@
 \contentsline {subsection}{\numberline {4.2.1}Extra Credit}{26}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Amazon Gift Card Drawing}{26}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Technology Used}{27}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}HTTPS}{27}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Test-First Methodology}{28}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.1}Test-First Methodology}{27}{subsection.4.3.1}
 \contentsline {section}{\numberline {4.4}User Feedback}{28}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Early Testing}{28}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Ongoing Feedback}{29}{subsection.4.4.2}
-\contentsline {chapter}{\numberline {5}User Study}{36}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data Gathering}{36}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Midterm Scores}{36}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Final Survey}{36}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Limitations}{37}{subsection.5.1.3}
-\contentsline {subsubsection}{No Control Group}{37}{subsubsection*.22}
-\contentsline {subsubsection}{Self-Reporting Midterm Scores}{37}{subsubsection*.23}
-\contentsline {section}{\numberline {5.2}Overall Results}{38}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Cramming vs. Commitment}{38}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Individual Questions}{40}{subsection.5.2.2}
-\contentsline {subsubsection}{Introduction to Operating Systems}{40}{subsubsection*.27}
-\contentsline {subsubsection}{Introduction to Computer Graphics}{43}{subsubsection*.31}
-\contentsline {subsubsection}{Introduction to Computer Networks}{44}{subsubsection*.33}
-\contentsline {section}{\numberline {5.3}User Feedback}{44}{section.5.3}
+\contentsline {chapter}{\numberline {5}User Study}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data Gathering}{37}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Midterm Scores}{37}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Final Survey}{37}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Limitations}{38}{subsection.5.1.3}
+\contentsline {subsubsection}{No Control Group}{38}{subsubsection*.25}
+\contentsline {subsubsection}{Self-Reporting Midterm Scores}{38}{subsubsection*.26}
+\contentsline {section}{\numberline {5.2}Overall Results}{39}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Cramming vs. Commitment}{39}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Individual Questions}{41}{subsection.5.2.2}
+\contentsline {subsubsection}{Introduction to Operating Systems}{41}{subsubsection*.30}
+\contentsline {subsubsection}{Introduction to Computer Graphics}{45}{subsubsection*.35}
+\contentsline {subsubsection}{Introduction to Computer Networks}{45}{subsubsection*.37}
+\contentsline {section}{\numberline {5.3}User Feedback}{46}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Rating Summary}{46}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}User Self-Evaluation vs. Actual Scores}{46}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Free Response Summary}{46}{subsection.5.3.3}
-\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{54}{chapter.6}
-\contentsline {section}{\numberline {6.1}Potential Improvements}{54}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Experiment Scope}{54}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Control Group}{55}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Experiment Duration}{55}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}User Feedback}{56}{subsection.6.1.4}
-\contentsline {subsubsection}{Notifications}{56}{subsubsection*.37}
-\contentsline {subsubsection}{Showing Answers}{56}{subsubsection*.38}
-\contentsline {chapter}{BIBLIOGRAPHY}{58}{chapter*.39}
+\contentsline {subsection}{\numberline {5.3.2}Free Response Summary}{48}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{55}{chapter.6}
+\contentsline {section}{\numberline {6.1}Potential Improvements}{55}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Experiment Scope}{55}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Control Group}{56}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Experiment Duration}{56}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}User Feedback}{57}{subsection.6.1.4}
+\contentsline {subsubsection}{Notifications}{57}{subsubsection*.40}
+\contentsline {subsubsection}{Showing Answers}{57}{subsubsection*.41}
+\contentsline {chapter}{BIBLIOGRAPHY}{59}{chapter*.42}
 \let \l@chapter \l@section 
 \noindent APPENDICES 
-\contentsline {chapter}{\numberline {A}Polycommit Participation Disclaimer}{62}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Question Feedback Content}{64}{Appendix.a.B}
-\contentsline {chapter}{\numberline {C}Final Survey Content}{65}{Appendix.a.C}
-\contentsline {chapter}{\numberline {D}User Feedback}{68}{Appendix.a.D}
-\contentsline {section}{\numberline {D.1}Email Responses}{68}{section.a.D.1}
-\contentsline {subsection}{\numberline {D.1.1}Apr 13, 2017}{68}{subsection.a.D.1.1}
-\contentsline {subsection}{\numberline {D.1.2}Action Taken}{69}{subsection.a.D.1.2}
+\contentsline {chapter}{\numberline {A}Polycommit Participation Disclaimer}{63}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Question Feedback Content}{65}{Appendix.a.B}
+\contentsline {chapter}{\numberline {C}Final Survey Content}{66}{Appendix.a.C}
+\contentsline {chapter}{\numberline {D}User Feedback}{69}{Appendix.a.D}
+\contentsline {section}{\numberline {D.1}Email Responses}{69}{section.a.D.1}
+\contentsline {subsection}{\numberline {D.1.1}Apr 13, 2017}{69}{subsection.a.D.1.1}
+\contentsline {subsection}{\numberline {D.1.2}Action Taken}{70}{subsection.a.D.1.2}

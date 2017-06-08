@@ -44,6 +44,18 @@ S.~T. Fiske and S.~H. Kang.
 \newblock {\em Policy Insights from the Behavioral and Brain Sciences},
   3(1):12--19, 2016.
 
+\bibitem{fogg2002persuasive}
+B.~J. Fogg.
+\newblock Persuasive technology: using computers to change what we think and
+  do.
+\newblock {\em Ubiquity}, 2002(December):5, 2002.
+
+\bibitem{fogg2009behavior}
+B.~J. Fogg.
+\newblock A behavior model for persuasive design.
+\newblock In {\em Proceedings of the 4th international Conference on Persuasive
+  Technology}, page~40. ACM, 2009.
+
 \bibitem{huang2013gamification}
 W.~H.-Y. Huang and D.~Soman.
 \newblock Gamification of education.
@@ -129,6 +141,11 @@ C.~Shelton.
 B.~F. Skinner.
 \newblock Teaching machines.
 \newblock {\em Science}, 1958.
+
+\bibitem{Skinner969}
+B.~F. Skinner.
+\newblock Teaching machines.
+\newblock {\em Science}, 128(3330):969--977, 1958.
 
 \bibitem{skinner1963operant}
 B.~F. Skinner.

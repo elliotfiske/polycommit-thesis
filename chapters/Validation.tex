@@ -1,13 +1,13 @@
 \chapter{User Study}
 
-\par The experiment was carried out over the first half of the Spring 2017 quarter at Cal Poly. 130 students signed up across 4 classes. By the end of the experiment, just over 3200 answers had been submitted to the application.
+\par The experiment was carried out over the first half of the Spring 2017 term at Cal Poly. 130 students signed up across 4 classes. By the end of the experiment, just over 3200 answers had been submitted to the application.
 
 \section{Data Gathering}
 
 \subsection{Midterm Scores}
 \par In order to gauge the effectiveness of \textit{Polycommit}, we collected scores on quizzes and exams and aggregated the data to be analyzed. For \textbf{Introduction to Operating Systems}, data collection was extremely simple as all the quizzes and midterms were administered through an online exam. This allowed us to easily obtain data on how students performed on specific midterm questions that aligned with questions asked in \textit{Polycommit}.
 
-\par However, the other classes were not as simple. The other classes administered paper midterms, and we did not have access to the papers as they were being graded. As such, we administered a secondary survey to   the students in the class asking them to input their midterm scores for various questions.
+\par However, the other classes were not as simple. The other classes administered paper midterms, and we did not have access to the papers as they were being graded. As such, we administered a secondary survey to the students in the class asking them to input their midterm scores for various questions.
 
 \subsection{Final Survey}
 \par After the experiment was concluded, all participants were sent a link to a survey where they could give feedback about their overall experience using \textit{Polycommit}. As an incentive, any participant who filled out the survey received +3 Commitment and +50 points (equal to an additional entry in the gift card raffle). A total of 70 participants filled out the post-experiment survey.
@@ -15,7 +15,7 @@
 \subsection{Limitations}
 \par Certain tradeoffs were necessary in order to run this experiment.
 \subsubsection{No Control Group} 
-\par Most importantly, there is no true control group for this experiment. We decided that it would be more advantageous to offer the application to all students in each section of the classes. This simplified the onboarding process, as we could present the application to all members of the class at once, and allow anyone to sign up. It also prevented potential issues where students might perceive it as unfair that certain students were give access to a study resource and others were not. In addition, this allowed more students to participate in the experiment, giving us access to more data and more user feedback.
+\par Most importantly, there is no true control group for this study. We decided that it would be more advantageous to offer the application to all students in each section of the classes. This simplified the onboarding process, as we could present the application to all members of the class at once, and allow anyone to sign up. It also prevented potential issues where students might perceive it as unfair that certain students were give access to a study resource and others were not. In addition, this allowed more students to participate in the experiment, giving us access to more data and more user feedback.
 
 \par As such, it's important to note that the students who participated in the study \textbf{self-selected} to become part of the experiment. Students who \textbf{did not} use the app can't be considered a control group, because they are not a random selection from the whole population. Allowing students to self-select may have introduced confounding variables. For example, perhaps students who are confident in their study techniques would choose to not participate, making the average midterm scores higher for non-participants.
 
@@ -28,12 +28,12 @@
  
  \begin{figure}[ht]
  	\includegraphics[width=1.0\linewidth]{figures/commitment-data1}
- 	\caption{Graph of Commitment versus the student's percentage score for all classes.}
+ 	\caption{Graph of commitment versus the student's percentage score for all classes. Note that the x-axis, commitment, represents the total number of \textit{unique} days the student used the app.}
  	\label{fig:comm_vs_score}
  \end{figure}
 
 \par Note that we are showing the midterm percentage score, since the midterms in different classes have different total score values.
-\par There is no clear correlation between a user's Commitment value and the score they got on the midterm. Thus, this data does not support the hypothesis that using spaced repetition to study for an exam improves the user's score.
+\par There is no clear correlation between a user's commitment value and the score they got on the midterm. Thus, this data does not support the hypothesis that using spaced repetition to study for an exam improves the user's score in a general test.
 
 \par  Next, we can compare the total number of questions answered by each user with their midterm score (\textbf{\hyperref[fig:cramming]{Figure \ref*{fig:cramming}}}). If students received a benefit from the Commitment system, we might expect to see \textit{less} of a correlation between total questions answered and midterm score. This is because if a user has a high number of questions answered but a low Commitment, this indicates they answered the questions all at once, in a ``cram'' session. According to our hypothesis, this would not help improve their long-term understanding of the course.
 
@@ -74,7 +74,7 @@
  Population Size & 26 & 11 & 10 \\
  
 \end{tabular}
-\caption{Average midterm scores for different samples of the population. Note that an ``Active User'' is a user with more than 5 Commitment.}
+\caption{Average midterm scores for different segments of the population. Note that an ``Active User'' is a user with more than 5 commitment.}
 \end{table}
 
 \subsection{Individual Questions}
@@ -112,17 +112,24 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 
 \par The mean score for \textbf{non-users} is 3.30, and the mean score for \textbf{users} is 3.31. Thus, using \textit{Polycommit} had a negligible effect on the average score of the participants. However, note that 23/26 \textbf{non-users} received a score greater than 3, while 34/37 \textbf{users} received a score greater than 3. This could reflect the fact that \textit{Polycommit} only referenced 3 out of the 4 conditions for deadlock, as the 4th condition in the problem was a false plant. Although all 4 conditions are listed in the ``explanation'' field for the problem, by default if a student answers the question correctly they are brought back to the course page. Thus, students who participated in \textit{Polycommit} were only drilled on 3 out of the 4 conditions for deadlock, which would explain the overall performance on the midterm.
 
-\par Next, we will examine problems related to scheduling. Scheduling, in Operating Systems, is the process by which a multithreaded CPU decides which processes get to run at a certain time. Since scheduling problems are easy to generate and automatically grade, several such problems were included in \textit{Polycommit}. Below, we graph the amount of scheduling problems users answered in \textit{Polycommit} versus the score they got on the scheduling section of the midterm (See \textbf{\hyperref[fig:scheduling]{Figure \ref*{fig:scheduling}}}).
-
-% TODO: also include graph where people got the polycommit question incorrect
+\par Next, we will examine problems related to scheduling. Scheduling, in Operating Systems, is the process by which a multithreaded CPU decides which processes get to run at a certain time. Since scheduling problems are easy to generate and automatically grade, several such problems were included in \textit{Polycommit}. Below, we graph the amount of scheduling problems users answered \textit{correctly} in \textit{Polycommit} versus the score they got on the scheduling section of the midterm (See \textbf{\hyperref[fig:scheduling]{Figure \ref*{fig:scheduling}}}).
 
 \begin{figure}[h!b]
-	\includegraphics[width=1.0\linewidth]{figures/scheduling}
-	\caption{Scatter plot where the X axis is the amount of scheduling problems the user answered on \textit{Polycommit}, and the Y axis is the total score they received on the 4 scheduling questions of the midterm.}
+	\includegraphics[width=1.0\linewidth]{figures/scheduling-right}
+	\caption{Scatter plot where the X axis is the amount of scheduling problems the user answered \textit{correctly} on \textit{Polycommit}, and the Y axis is the total score they received on the 4 scheduling questions of the midterm.}
 	\label{fig:scheduling}
 \end{figure}
 
-\par As you can see, there is a clear correlation between consistently practicing scheduling questions and performing well on the exam. While many students did get full credit on the scheduling portion of the exam, the students who answered all 5 scheduling questions on Polycommit all scored perfectly on that section of the exam.
+\par As you can see, there is a clear correlation between consistently practicing scheduling questions and performing well on the exam. No student who answered 2 or more scheduling questions got less than 50\% credit for the scheduling portion of the exam.
+
+\par Next, consider the users that attempted the scheduling problems on \textit{Polycommit}, but got them wrong. The graph in \textbf{\hyperref[fig:scheduling-wrong]{Figure \ref*{fig:scheduling-wrong}}} includes all \textit{attempts} on the scheduling problems, including incorrect ones.
+
+\begin{figure}[h!]
+	\includegraphics[width=1.0\linewidth]{figures/scheduling-wrong}
+	\caption{Scatter plot where the X axis is the amount of scheduling problems the user answered \textit{correctly} on \textit{Polycommit}, and the Y axis is the total score they received on the 4 scheduling questions of the midterm.}
+	\label{fig:scheduling-wrong}
+\end{figure}
+
 
 
 \subsubsection{Introduction to Computer Graphics}
@@ -135,17 +142,20 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 		\hline
 		\textbf{Vector Math} & & \\
 		Score & 98\% & 100\%  \\
+		Number of Students & 5 & 38 \\
 		
 		\hline
 		\textbf{Transformation Matrices} & &  \\
 		Score  & 92.1\% & 86.3\% \\
+		Number of Students & 4 & 39 \\
 		
 		\hline
 		\textbf{Barycentric Coordinates} & &  \\
 		Score  & 100\% & 97.7\% \\
+		Number of Students & 6 & 37 \\
 		
 	\end{tabular}
-\caption{IMPORTANT: These midterm scores were self-reported, so their accuracy depends on the honesty of the reporting student.}
+\caption{Table representing the percentage score on the midterm for students who answered similar questions in \textit{Polycommit} for the class \textbf{Introduction to Computer Graphics}. NOTE: these midterm scores were self-reported, so their accuracy depends on the honesty of the reporting student.}
 \end{table}
 
 \subsubsection{Introduction to Computer Networks}
@@ -158,17 +168,20 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 		\hline
 		\textbf{IP Addressing} & & \\
 		Score & 80\% & 77.4\%  \\
+		Number of Students & 15 & 73 \\
 		
 		\hline
 		\textbf{CRC Checksums} & &  \\
 		Score  & 100\% & 86.3\% \\
+		Number of Students & 16 & 72 \\
 		
 		\hline
 		\textbf{Sliding Window Protcol} & &  \\
 		Score  & 90\% & 76.9\% \\
+		Number of Students & 16 & 72 \\
 		
 	\end{tabular}
-\caption{IMPORTANT: These midterm scores were self-reported, so their accuracy depends on the honesty of the reporting student.}
+\caption{Table representing the percentage score on the midterm for students who answered similar questions in \textit{Polycommit} for the class \textbf{Introduction to Computer Networks}. NOTE: these midterm scores were self-reported, so their accuracy depends on the honesty of the reporting student.}
 \end{table}
 
 \section {User Feedback}
@@ -177,7 +190,7 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 
 \subsection{Rating Summary}
 
-\par The full survey is viewable in \textbf{\hyperref[fig:survey1]{Figure \ref*{fig:survey1}}}. Users responded to several statements about the app using a standard Likert scale ranging from Strongly Disagree to Strongly Agree. A summary of the user responses is available at \textbf{\hyperref[fig:likert]{Figure \ref*{fig:likert}}}. Notably, a majority of users responded quite positively to the app.
+\par The full survey is viewable in \textbf{Appendix \ref{appendix:final_survey}}. Users responded to several statements about the app using a standard Likert scale ranging from ``Strongly Disagree'' to ``Strongly Agree.'' A summary of the user responses is available at \textbf{\hyperref[fig:likert]{Figure \ref*{fig:likert}}}. Notably, a majority of users responded quite positively to the app.
 
 
 \begin{figure}[h]
@@ -185,17 +198,6 @@ One question that was shared between the midterm and \textit{Polycommit} was a q
 	\caption{Survey responses from users of Polycommit.}
 	\label{fig:likert}
 \end{figure}
-
-\subsection{User Self-Evaluation vs. Actual Scores}
-
-\par One interesting result comes by grouping midterm scores by the user's response to ``\textit{Polycommit} improved my scores on quizzes and exams'' (See \textbf{\hyperref[fig:overconfidence]{Figure \ref*{fig:overconfidence}}}). Students who reported that \textit{Polycommit} did \textit{not} improve their scores scored substantially higher than students who did. One explanation for this is that students who were already confident about their studying habits or had prior knowledge of Operating Systems did not feel that \textit{Polycommit} had an impact on their grades, which are already high overall.
-
-\begin{figure}[h]
-	\includegraphics[width=1.0\linewidth]{figures/improved-vs-score}
-	\caption{Mean midterm score grouped by response to final survey question ``\textit{Polycommit} improved my scores on quizzes and exams.''}
-	\label{fig:overconfidence}
-\end{figure}
-
 
 \subsection{Free Response Summary}
 \par Before viewing the results, we predicted some categories that user responses might fall into. These categories are:
